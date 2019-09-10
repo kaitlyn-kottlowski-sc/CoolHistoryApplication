@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="sign_up_cap">SIGN UP</string>
+    <string name="log_in_cap">LOG IN</string>
 </resources>
