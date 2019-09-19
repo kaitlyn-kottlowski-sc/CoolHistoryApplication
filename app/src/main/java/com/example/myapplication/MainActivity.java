@@ -24,6 +24,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void clickWallace(View view)
     {
-        
+
     }
 }
