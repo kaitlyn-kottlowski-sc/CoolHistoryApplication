@@ -18,11 +18,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Initialize
-        ImageButton wallaceButton = findViewById(R.id.wallaceButton);
+        //ImageButton wallaceButton = findViewById(R.id.wallaceButton);
 
     }
 
-    private void clickWallace(View view)
+    public void click_Wallace(View view)
     {
 
     }
