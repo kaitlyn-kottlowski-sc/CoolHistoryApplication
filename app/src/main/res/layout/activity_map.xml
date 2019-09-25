@@ -7,18 +7,213 @@
     android:background="@mipmap/ic_simpson_map_foreground"
     tools:context=".MainActivity">
 
-
-    <ImageButton
-        android:id="@+id/wallace_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/wallace_button"
-        android:onClick="click_Wallace"
+    <ImageView
+        android:id="@+id/mcniell_button"
+        android:layout_width="40dp"
+        android:layout_height="46dp"
+        android:contentDescription="@string/mcneill_hall_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.777"
+        app:layout_constraintHorizontal_bias="0.458"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.596"
-        app:srcCompat="@android:color/holo_red_dark" />
+        app:layout_constraintVertical_bias="0.747"
+        app:srcCompat="@drawable/ic_place_black_24dp" />
+
+    <ImageView
+        android:id="@+id/hillman_button"
+        android:layout_width="40dp"
+        android:layout_height="46dp"
+        android:contentDescription="@string/hillman_hall_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.566"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.778"
+        app:srcCompat="@drawable/ic_place_black_24dp" />
+
+    <ImageView
+        android:id="@+id/robinson_button"
+        android:layout_width="40dp"
+        android:layout_height="46dp"
+        android:contentDescription="@string/amy_robinson_music_center_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.83"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.637"
+        app:srcCompat="@drawable/ic_place_black_24dp" />
+
+    <ImageView
+        android:id="@+id/chapel_button"
+        android:layout_width="40dp"
+        android:layout_height="46dp"
+        android:contentDescription="@string/smith_chapel_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.83"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.798"
+        app:srcCompat="@drawable/ic_place_black_24dp" />
+
+    <ImageView
+        android:id="@+id/carver_button"
+        android:layout_width="40dp"
+        android:layout_height="46dp"
+        android:contentDescription="@string/carver_hall_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.722"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9"
+        app:srcCompat="@drawable/ic_place_black_24dp" />
+
+    <ImageView
+        android:id="@+id/buxton_stadium_button"
+        android:layout_width="40dp"
+        android:layout_height="46dp"
+        android:contentDescription="@string/buxton_stadium_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.237"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.778"
+        app:srcCompat="@drawable/ic_place_black_24dp" />
+
+    <ImageView
+        android:id="@+id/wallace_button"
+        android:layout_width="40dp"
+        android:layout_height="46dp"
+        android:clickable="true"
+        android:contentDescription="@string/wallace_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.787"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.553"
+        app:srcCompat="@drawable/ic_place_black_24dp"
+        android:focusable="true" />
+
+    <ImageView
+        android:id="@+id/dunn_button"
+        android:layout_width="40dp"
+        android:layout_height="46dp"
+        android:contentDescription="@string/dunn_library_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.679"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.474"
+        app:srcCompat="@drawable/ic_place_black_24dp" />
+
+    <ImageView
+        android:id="@+id/college_button"
+        android:layout_width="40dp"
+        android:layout_height="46dp"
+        android:contentDescription="@string/college_hall_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.63"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.595"
+        app:srcCompat="@drawable/ic_place_black_24dp" />
+
+    <ImageView
+        android:id="@+id/berry_button"
+        android:layout_width="40dp"
+        android:layout_height="46dp"
+        android:contentDescription="@string/mary_berry_hall"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.442"
+        app:srcCompat="@drawable/ic_place_black_24dp" />
+
+    <ImageView
+        android:id="@+id/pfieffer_great_button"
+        android:layout_width="40dp"
+        android:layout_height="46dp"
+        android:contentDescription="@string/pfieffer_and_great_hall_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.614"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348"
+        app:srcCompat="@drawable/ic_place_black_24dp" />
+
+    <ImageView
+        android:id="@+id/barker_button"
+        android:layout_width="40dp"
+        android:layout_height="46dp"
+        android:contentDescription="@string/barker_hall"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.722"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.322"
+        app:srcCompat="@drawable/ic_place_black_24dp" />
+
+    <ImageView
+        android:id="@+id/kresge_button"
+        android:layout_width="40dp"
+        android:layout_height="46dp"
+        android:contentDescription="@string/kresge_hall"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.306"
+        app:srcCompat="@drawable/ic_place_black_24dp" />
+
+    <ImageView
+        android:id="@+id/hopper_button"
+        android:layout_width="40dp"
+        android:layout_height="46dp"
+        android:contentDescription="@string/hopper_gym_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.291"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.455"
+        app:srcCompat="@drawable/ic_place_black_24dp" />
+
+    <ImageView
+        android:id="@+id/kent_button"
+        android:layout_width="40dp"
+        android:layout_height="46dp"
+        android:contentDescription="@string/kent_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.261"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.175"
+        app:srcCompat="@drawable/ic_place_black_24dp" />
+
+    <ImageView
+        android:id="@+id/cowles_button"
+        android:layout_width="40dp"
+        android:layout_height="46dp"
+        android:contentDescription="@string/cowles_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.183"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.362"
+        app:srcCompat="@drawable/ic_place_black_24dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

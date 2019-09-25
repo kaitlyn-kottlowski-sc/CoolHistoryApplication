@@ -4,4 +4,19 @@
     <string name="log_in_cap">LOG IN</string>
     <string name="map_of_simpson_college_campus">Map of Simpson College Campus</string>
     <string name="wallace_button">Wallace Hall Button</string>
+    <string name="mcneill_hall_button">McNeill Hall Button</string>
+    <string name="hillman_hall_button">Hillman Hall Button</string>
+    <string name="amy_robinson_music_center_button">Amy Robinson Music Center Button</string>
+    <string name="smith_chapel_button">Smith Chapel Button</string>
+    <string name="carver_hall_button">Carver Hall Button</string>
+    <string name="buxton_stadium_button">Buxton Stadium Button</string>
+    <string name="dunn_library_button">Dunn Library Button</string>
+    <string name="college_hall_button">College Hall Button</string>
+    <string name="mary_berry_hall">Mary Berry Hall</string>
+    <string name="pfieffer_and_great_hall_button">Pfieffer and Great Hall Button</string>
+    <string name="barker_hall">Barker Hall</string>
+    <string name="kresge_hall">Kresge Hall</string>
+    <string name="hopper_gym_button">Hopper Gym Button</string>
+    <string name="kent_button">Kent Button</string>
+    <string name="cowles_button">Cowles Button</string>
 </resources>
