@@ -6,6 +6,7 @@ import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.text.BreakIterator;
@@ -25,5 +26,33 @@ public class MainActivity extends AppCompatActivity {
     public void click_Wallace(View view)
     {
 
+    }
+
+    public void changeViewInfo(View view) {
+        //boolean avail=false;
+
+        /*if (avail) {
+            info_page_image.setBackgroundResource(0);
+            avail = false;
+        } else {
+            info_page_image.setBackgroundResource(R.drawable.ic_launcher);
+            avail = true;
+        }*/
+
+        TextView greetingTextView = findViewById(R.id.greetingTextView);
+        greetingTextView.setText("Thanks for clicking");
+
+
+        ImageView info_button = findViewById(R.id.info_button);
+        info_button.setVisibility(View.INVISIBLE);
+
+        ImageView help_button = findViewById(R.id.help_button);
+        help_button.setVisibility(View.INVISIBLE);
+
+        ImageView map_button = findViewById(R.id.map_button);
+        map_button.setVisibility(View.INVISIBLE);
+
+        ImageView list_button = findViewById(R.id.list_button);
+        list_button.setVisibility(View.INVISIBLE);
     }
 }

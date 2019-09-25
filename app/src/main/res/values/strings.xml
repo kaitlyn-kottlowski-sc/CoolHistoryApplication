@@ -19,5 +19,9 @@
     <string name="hopper_gym_button">Hopper Gym Button</string>
     <string name="kent_button">Kent Button</string>
     <string name="cowles_button">Cowles Button</string>
-    <string name="simpson_building_text">Simpson Buildings</string>
+    <string name="simpson_college_application">Simpson College Application</string>
+    <string name="info_button">info_button</string>
+    <string name="map_button">map_button</string>
+    <string name="list_button">list_button</string>
+    <string name="help_button">help_button</string>
 </resources>
