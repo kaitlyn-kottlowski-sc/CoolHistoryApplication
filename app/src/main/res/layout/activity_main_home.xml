@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B22222"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/map_button"
+        android:layout_width="97dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="248dp"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.267"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_dialog_map"
+        android:focusable="true"
+        android:contentDescription="@string/map_button" />
+
+    <ImageView
+        android:id="@+id/info_button"
+        android:layout_width="88dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="400dp"
+        android:clickable="true"
+        android:contentDescription="@string/info_button"
+        android:focusable="true"
+        android:onClick="changeViewInfo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.284"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_dialog_info" />
+
+    <ImageView
+        android:id="@+id/help_button"
+        android:layout_width="107dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="392dp"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.754"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_help_black_24dp"
+        android:focusable="true"
+        android:contentDescription="@string/help_button" />
+
+    <ImageView
+        android:id="@+id/list_button"
+        android:layout_width="129dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="240dp"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.802"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_view_list_black_24dp"
+        android:focusable="true"
+        android:contentDescription="@string/list_button" />
+
+    <EditText
+        android:id="@+id/greetingTextView"
+        android:layout_width="351dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="140dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/simpson_college_application"
+        android:inputType="textPersonName"
+        android:text="@string/simpson_college_application"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.733"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" tools:targetApi="o" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
