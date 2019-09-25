@@ -24,4 +24,5 @@
     <string name="map_button">map_button</string>
     <string name="list_button">list_button</string>
     <string name="help_button">help_button</string>
+    <string name="simpson_building_text">Simpson Buildings</string>
 </resources>
