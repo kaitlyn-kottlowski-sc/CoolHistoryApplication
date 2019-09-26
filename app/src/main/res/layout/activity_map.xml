@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@mipmap/ic_simpson_map_foreground"
     tools:context=".MapActivity">
+
 
     <ImageView
         android:id="@+id/mcniell_button"
@@ -27,10 +29,10 @@
         android:contentDescription="@string/hillman_hall_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.566"
+        app:layout_constraintHorizontal_bias="0.598"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.778"
+        app:layout_constraintVertical_bias="0.78"
         app:srcCompat="@drawable/ic_place_black_24dp" />
 
     <ImageView
@@ -43,7 +45,7 @@
         app:layout_constraintHorizontal_bias="0.83"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.637"
+        app:layout_constraintVertical_bias="0.648"
         app:srcCompat="@drawable/ic_place_black_24dp" />
 
     <ImageView
@@ -91,14 +93,14 @@
         android:layout_height="46dp"
         android:clickable="true"
         android:contentDescription="@string/wallace_button"
+        android:focusable="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.787"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.553"
-        app:srcCompat="@drawable/ic_place_black_24dp"
-        android:focusable="true" />
+        app:srcCompat="@drawable/ic_place_black_24dp" />
 
     <ImageView
         android:id="@+id/dunn_button"
@@ -223,8 +225,8 @@
         android:layout_height="59dp"
         android:background="#B22222"
         android:clickable="true"
-        android:focusable="true"
         android:contentDescription="@string/go_back_to_main_page"
+        android:focusable="true"
         android:onClick="click_BackToMainFromMap"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -233,5 +235,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/ic_home_white_24dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

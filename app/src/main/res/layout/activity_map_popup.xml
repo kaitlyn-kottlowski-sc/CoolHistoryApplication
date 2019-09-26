@@ -3,8 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#B22222"
+    android:background="#FFFFFF"
     android:orientation="vertical">
+
 
     <Button
         android:id="@+id/to_map_button"
@@ -16,30 +17,17 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.688" />
-
-    <Button
-        android:id="@+id/to_main_button"
-        android:layout_width="159dp"
-        android:layout_height="69dp"
-        android:contentDescription="@string/go_back_to_main_page"
-        android:onClick="click_BackToMain"
-        android:text="@string/back"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.851" />
+        app:layout_constraintTop_toBottomOf="@+id/example_of_location"
+        app:layout_constraintVertical_bias="0.207" />
 
     <TextView
         android:id="@+id/popup_message"
-        android:layout_width="287dp"
-        android:layout_height="252dp"
+        android:layout_width="353dp"
+        android:layout_height="376dp"
         android:gravity="center"
-        android:text="@string/do_you_want_to_look_at_a_map_of_simpson_college"
+        android:text="@string/tip"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="#F8FFFFFF"
+        android:textColor="#B22222"
         android:textSize="36sp"
         android:textStyle="bold"
         app:fontFamily="casual"
@@ -47,5 +35,35 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.338" />
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/button"
+        android:layout_width="58dp"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:contentDescription="@string/go_back_to_main_page"
+        android:onClick="click_BackToMain"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/to_map_button"
+        app:layout_constraintVertical_bias="0.913"
+        android:background="@drawable/ic_arrow_back_red_24dp"
+        android:focusable="true" />
+
+    <ImageView
+        android:id="@+id/example_of_location"
+        android:layout_width="116dp"
+        android:layout_height="124dp"
+        android:background="@drawable/ic_place_black_24dp"
+        android:contentDescription="@string/example_of_location_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/popup_message"
+        app:layout_constraintVertical_bias="0.116" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
