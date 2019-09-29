@@ -31,8 +31,8 @@
     <string name="go_to_map">Go to Map</string>
     <string name="go_back_to_main_page">Go back to Main Page</string>
     <string name="back">Back</string>
-    <string name="do_you_want_to_look_at_a_map_of_simpson_college">Do you want to look at a map of Simpson College?</string>
     <string name="thanks_for_clicking">Thanks for clicking</string>
-    <string name="tip">Tip: When viewing map, click on the location icon of the building you want to learn more about.</string>
+    <string name="tip">Tip: When viewing map, click on the RED location icon of the building you want to learn more about.</string>
     <string name="example_of_location_button">Example of location button</string>
+    <string name="button">Button</string>
 </resources>
