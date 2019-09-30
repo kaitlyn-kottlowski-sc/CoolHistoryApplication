@@ -14,6 +14,7 @@
         android:layout_height="94dp"
         android:layout_marginTop="248dp"
         android:clickable="true"
+        android:onClick="click_Map"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.267"
         app:layout_constraintStart_toStartOf="parent"

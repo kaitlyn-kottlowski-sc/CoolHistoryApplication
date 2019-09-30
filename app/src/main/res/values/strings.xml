@@ -25,4 +25,14 @@
     <string name="list_button">list_button</string>
     <string name="help_button">help_button</string>
     <string name="simpson_building_text">Simpson Buildings</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="pop_up_window_background">Pop up window background</string>
+    <string name="go_to_simpson_college_campus_map">Go to Simpson College campus map</string>
+    <string name="go_to_map">Go to Map</string>
+    <string name="go_back_to_main_page">Go back to Main Page</string>
+    <string name="back">Back</string>
+    <string name="thanks_for_clicking">Thanks for clicking</string>
+    <string name="tip">Tip: When viewing map, click on the RED location icon of the building you want to learn more about.</string>
+    <string name="example_of_location_button">Example of location button</string>
+    <string name="button">Button</string>
 </resources>

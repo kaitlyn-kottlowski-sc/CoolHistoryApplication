@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/to_map_button"
+        android:layout_width="159dp"
+        android:layout_height="69dp"
+        android:contentDescription="@string/go_to_simpson_college_campus_map"
+        android:onClick="click_GoToMap"
+        android:text="@string/go_to_map"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/example_of_location"
+        app:layout_constraintVertical_bias="0.207" />
+
+    <TextView
+        android:id="@+id/popup_message"
+        android:layout_width="353dp"
+        android:layout_height="376dp"
+        android:gravity="center"
+        android:text="@string/tip"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#B22222"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:fontFamily="casual"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/button"
+        android:layout_width="58dp"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:contentDescription="@string/go_back_to_main_page"
+        android:onClick="click_BackToMain"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/to_map_button"
+        app:layout_constraintVertical_bias="0.913"
+        android:background="@drawable/ic_arrow_back_red_24dp"
+        android:focusable="true" />
+
+    <ImageView
+        android:id="@+id/example_of_location"
+        android:layout_width="116dp"
+        android:layout_height="124dp"
+        android:background="@drawable/ic_place_black_24dp"
+        android:contentDescription="@string/example_of_location_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/popup_message"
+        app:layout_constraintVertical_bias="0.116" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
