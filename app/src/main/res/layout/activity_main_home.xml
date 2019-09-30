@@ -20,7 +20,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@android:drawable/ic_dialog_map"
         android:focusable="true"
-        android:contentDescription="@string/map_button" />
+        android:contentDescription="@string/map_button"
+       />
 
     <ImageView
         android:id="@+id/info_button"
