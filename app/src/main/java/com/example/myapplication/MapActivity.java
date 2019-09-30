@@ -26,6 +26,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map);
 
+
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.simpson_map);
         assert mapFragment != null;
@@ -37,9 +38,10 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
     public void onMapReady(GoogleMap googleMap) {
 
         map = googleMap;
+        map.clear();
 
         // Set map to satellite mode
-        map.setMapType(GoogleMap.MAP_TYPE_HYBRID);
+        map.setMapType(GoogleMap.MAP_TYPE_SATELLITE);
 
         // Zoom in vicinity of Simpson Campus
         final LatLng simpson = new LatLng(41.365475, -93.564849);
@@ -47,15 +49,57 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
         map.animateCamera(newLoc);
 
         // Initialize Building LatLng and Markers
-        final LatLng WallaceHallLatLng = new LatLng(41.365112, -93.562948);
-        final Marker WallaceHall = map.addMarker(new MarkerOptions().position(WallaceHallLatLng)
+        final LatLng wallaceHallLatLng = new LatLng(41.365112, -93.562948);
+        final LatLng maryBerryLatLng = new LatLng(41.365537, -93.564544);
+        final LatLng carverHallLatLng = new LatLng(41.363742, -93.563243);
+        final LatLng collegeHallLatLng = new LatLng(41.364976, -93.563648);
+        final LatLng amyRobinsonLatLng = new LatLng(41.364743, -93.562664);
+        final LatLng smithChapelLatLng = new LatLng(41.364191, -93.562678);
+        final LatLng hopperGymLatLng = new LatLng(41.365530, -93.565462);
+        final LatLng cowlesLatLng = new LatLng(41.365907, -93.565964);
+        final LatLng mcNeillHallLatLng = new LatLng(41.364399, -93.564544);
+        final LatLng hillmanHallLatLng = new LatLng(41.364231, -93.564044);
+        // TO DO - (LatLng) Barker, Great/Pfieffer, Kresge, Kent
+
+        final Marker wallaceHall = map.addMarker(new MarkerOptions().position(wallaceHallLatLng)
                 .title("Wallace Hall"));
-        WallaceHall.setTag(WallaceHallLatLng);
+        final Marker marryBerry = map.addMarker(new MarkerOptions().position(maryBerryLatLng)
+                .title("Mary Berry"));
+        final Marker carverHall = map.addMarker(new MarkerOptions().position(carverHallLatLng)
+                .title("Carver Hall"));
+        final Marker collegeHall = map.addMarker(new MarkerOptions().position(collegeHallLatLng)
+                .title("College Hall"));
+        final Marker amyRobinson = map.addMarker(new MarkerOptions().position(amyRobinsonLatLng)
+                .title("Amy Robinson Music Center"));
+        final Marker smithChapel = map.addMarker(new MarkerOptions().position(smithChapelLatLng)
+                .title("Smith Chapel"));
+        final Marker hopperGym = map.addMarker(new MarkerOptions().position(hopperGymLatLng)
+                .title("Hopper Gymnasium"));
+        final Marker cowlesFieldhouse = map.addMarker(new MarkerOptions().position(cowlesLatLng)
+                .title("Cowles Fieldhouse"));
+        final Marker mcNeillHall = map.addMarker(new MarkerOptions().position(mcNeillHallLatLng)
+                .title("McNeill Hall"));
+        final Marker hillmanHall = map.addMarker(new MarkerOptions().position(hillmanHallLatLng)
+                .title("Hillman Hall"));
+        // TO DO - (Marker) Barker, Great/Pfieffer, Kresge, Kent
+
+        wallaceHall.setTag(wallaceHallLatLng);
+        marryBerry.setTag(maryBerryLatLng);
+        carverHall.setTag(carverHallLatLng);
+        collegeHall.setTag(collegeHallLatLng);
+        amyRobinson.setTag(amyRobinsonLatLng);
+        smithChapel.setTag(smithChapelLatLng);
+        hopperGym.setTag(hopperGymLatLng);
+        cowlesFieldhouse.setTag(cowlesLatLng);
+        mcNeillHall.setTag(mcNeillHallLatLng);
+        hillmanHall.setTag(hillmanHallLatLng);
+        // TO DO - (setTag) Barker, Great/Pfieffer, Kresge, Kent
+
 
         map.setOnMarkerClickListener(new GoogleMap.OnMarkerClickListener() {
             @Override
             public boolean onMarkerClick(Marker marker) {
-                if(marker.getTag() == WallaceHallLatLng)
+                if(marker.getTag() == wallaceHallLatLng)
                 {
                     // change to wallacehistory
                     Intent intent = new Intent(MapActivity.this, MapPopActivity.class);
