@@ -61,6 +61,7 @@
         android:clickable="true"
         android:contentDescription="@string/list_button"
         android:focusable="true"
+        android:onClick="changeViewList"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.802"
         app:layout_constraintStart_toStartOf="parent"
@@ -73,15 +74,15 @@
         android:layout_height="116dp"
         android:layout_marginTop="68dp"
         android:bufferType="spannable"
+        android:fillColor="#FFFFFF"
         android:text="@string/simpson_college_history_app"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         android:textColor="@android:color/background_light"
-        android:textColorHighlight="@android:color/background_light"
-        android:textColorLink="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

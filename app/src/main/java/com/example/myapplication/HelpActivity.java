@@ -12,12 +12,12 @@ import android.widget.TextView;
 
 import java.text.BreakIterator;
 
-public class InfoActivity extends AppCompatActivity {
+public class HelpActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_info);
+        setContentView(R.layout.activityhelp);
 
         // Initialize
         //ImageButton wallaceButton = findViewById(R.id.wallaceButton);
