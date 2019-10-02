@@ -35,4 +35,10 @@
     <string name="tip">Tip: When viewing map, click on the RED location icon of the building you want to learn more about.</string>
     <string name="example_of_location_button">Example of location button</string>
     <string name="button">Button</string>
+    <string name="info_page_title">Info Page</string>
+    <string name="creators_of_this_app">Creators of this App</string>
+    <string name="content">Jane Doe, John Doe, Emily Doe, Mark Doe Created the historial conent on the app</string>
+    <string name="simpson_college_history_app">Simpson College History App</string>
+    <string name="help_page">Help Page</string>
+    <string name="buttons_on_this_application">Buttons on this Application</string>
 </resources>
