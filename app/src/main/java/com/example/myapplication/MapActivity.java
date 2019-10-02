@@ -38,7 +38,6 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
     public void onMapReady(GoogleMap googleMap) {
 
         map = googleMap;
-        map.clear();
 
         // Set map to satellite mode
         map.setMapType(GoogleMap.MAP_TYPE_SATELLITE);
@@ -114,6 +113,13 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
 
     public void click_Wallace(View view)
     {
+
+    }
+
+    public void click_Main(View view)
+    {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
 
     }
 }
