@@ -22,6 +22,8 @@
 
         <activity android:name=".MapPopActivity" />
         <activity android:name=".MapActivity" />
+        <activity android:name=".InfoActivity"/>
+        <activity android:name=".HelpActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
