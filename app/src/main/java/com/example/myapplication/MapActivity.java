@@ -52,13 +52,17 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
         final LatLng maryBerryLatLng = new LatLng(41.365537, -93.564544);
         final LatLng carverHallLatLng = new LatLng(41.363742, -93.563243);
         final LatLng collegeHallLatLng = new LatLng(41.364976, -93.563648);
-        final LatLng amyRobinsonLatLng = new LatLng(41.364743, -93.562664);
         final LatLng smithChapelLatLng = new LatLng(41.364191, -93.562678);
         final LatLng hopperGymLatLng = new LatLng(41.365530, -93.565462);
         final LatLng cowlesLatLng = new LatLng(41.365907, -93.565964);
         final LatLng mcNeillHallLatLng = new LatLng(41.364399, -93.564544);
         final LatLng hillmanHallLatLng = new LatLng(41.364231, -93.564044);
-        // TO DO - (LatLng) Barker, Great/Pfieffer, Kresge, Kent
+        final LatLng bpacLatLng = new LatLng(41.365412, -93.567308);
+        final LatLng kentLatLng = new LatLng(41.366596, -93.565547);
+        final LatLng lekburgHallLatLng = new LatLng(41.364779, -93.562696);
+        final LatLng greatPfiefferLatLng = new LatLng(41.365849, -93.563772);
+        final LatLng buxtonStadiumLatLng = new LatLng(41.364268, -93.565690);
+        final LatLng dunnLibraryLatLng = new LatLng(41.365502, -93.563619);
 
         final Marker wallaceHall = map.addMarker(new MarkerOptions().position(wallaceHallLatLng)
                 .title("Wallace Hall"));
@@ -68,8 +72,6 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
                 .title("Carver Hall"));
         final Marker collegeHall = map.addMarker(new MarkerOptions().position(collegeHallLatLng)
                 .title("College Hall"));
-        final Marker amyRobinson = map.addMarker(new MarkerOptions().position(amyRobinsonLatLng)
-                .title("Amy Robinson Music Center"));
         final Marker smithChapel = map.addMarker(new MarkerOptions().position(smithChapelLatLng)
                 .title("Smith Chapel"));
         final Marker hopperGym = map.addMarker(new MarkerOptions().position(hopperGymLatLng)
@@ -80,19 +82,34 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
                 .title("McNeill Hall"));
         final Marker hillmanHall = map.addMarker(new MarkerOptions().position(hillmanHallLatLng)
                 .title("Hillman Hall"));
-        // TO DO - (Marker) Barker, Great/Pfieffer, Kresge, Kent
+        final Marker bpac = map.addMarker(new MarkerOptions().position(bpacLatLng)
+                .title("BPAC"));
+        final Marker kent = map.addMarker(new MarkerOptions().position(kentLatLng)
+                .title("Kent Campus Center"));
+        final Marker lekburgHall = map.addMarker(new MarkerOptions().position(lekburgHallLatLng)
+                .title("Lekburg Recital Hall"));
+        final Marker greatPfieffer = map.addMarker(new MarkerOptions().position(greatPfiefferLatLng)
+                .title("Great Hall/Pfieffer"));
+        final Marker buxtonStadium = map.addMarker(new MarkerOptions().position(buxtonStadiumLatLng)
+                .title("Bill Buxton Stadium"));
+        final Marker dunnLibrary = map.addMarker(new MarkerOptions().position(dunnLibraryLatLng)
+                .title("Dunn Library"));
 
         wallaceHall.setTag(wallaceHallLatLng);
         marryBerry.setTag(maryBerryLatLng);
         carverHall.setTag(carverHallLatLng);
         collegeHall.setTag(collegeHallLatLng);
-        amyRobinson.setTag(amyRobinsonLatLng);
         smithChapel.setTag(smithChapelLatLng);
         hopperGym.setTag(hopperGymLatLng);
         cowlesFieldhouse.setTag(cowlesLatLng);
         mcNeillHall.setTag(mcNeillHallLatLng);
         hillmanHall.setTag(hillmanHallLatLng);
-        // TO DO - (setTag) Barker, Great/Pfieffer, Kresge, Kent
+        bpac.setTag(bpacLatLng);
+        kent.setTag(kentLatLng);
+        lekburgHall.setTag(lekburgHallLatLng);
+        greatPfieffer.setTag(greatPfiefferLatLng);
+        buxtonStadium.setTag(buxtonStadiumLatLng);
+        dunnLibrary.setTag(dunnLibraryLatLng);
 
 
         map.setOnMarkerClickListener(new GoogleMap.OnMarkerClickListener() {
@@ -103,7 +120,6 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
                     // change to wallacehistory
                     Intent intent = new Intent(MapActivity.this, MapPopActivity.class);
                     startActivity(intent);
-
                 }
                 return false;
             }
