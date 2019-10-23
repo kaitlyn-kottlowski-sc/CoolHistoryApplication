@@ -22,7 +22,7 @@
         android:layout_marginBottom="4dp"
         android:background="#B22222"
         android:contentDescription="@string/go_back_to_main_page"
-        android:onClick="click_Wallace"
+        android:onClick="click_Home"
         android:src="@drawable/ic_home_white_75dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

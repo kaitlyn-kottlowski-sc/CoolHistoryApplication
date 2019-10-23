@@ -31,11 +31,6 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void click_Wallace(View view)
-    {
-
-    }
-
     public void changeViewInfo(View view) {
 
 
