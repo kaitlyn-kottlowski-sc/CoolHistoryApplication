@@ -111,16 +111,10 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
 
     }
 
-    public void click_Walla(View view)
-    {
 
-    }
 
-    public void click_Wallace(View view)
-    {
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
-
+    public void click_Home(View view) {
+        setContentView(R.layout.activity_main_home);
     }
 }
 

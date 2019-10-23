@@ -6,6 +6,7 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -13,6 +14,8 @@ import android.widget.TextView;
 import java.text.BreakIterator;
 
 public class MainActivity extends AppCompatActivity {
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,10 +34,6 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void click_Wallace(View view)
-    {
-
-    }
 
     public void changeViewInfo(View view) {
 
@@ -44,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
 
     public void changeViewHelp(View view) {
 
@@ -59,9 +59,39 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_scroll);
 
-        /*Intent intent = new Intent(this, Activity_scroll.class);
-        startActivity(intent);*/
-
 
     }
+
+    public void clickHome(View view){
+
+        setContentView(R.layout.activity_main_home);
+    }
+
+
+    public void clickHopper(View view){
+
+        setContentView(R.layout.activity_hopper);
+    }
+
+    public void click_BillBuxton(View view)
+    {
+        setContentView(R.layout.activity_bill_buxton);
+    }
+
+    public void click_Wallace(View view)
+    {
+        setContentView(R.layout.activity_wallace);
+    }
+
+    public void click_GreatHall(View view)
+    {
+        setContentView(R.layout.activity_greathall);
+    }
+
+    public void click_McNeil(View view)
+    {
+        setContentView(R.layout.activity_mcneil);
+    }
+
+
 }
