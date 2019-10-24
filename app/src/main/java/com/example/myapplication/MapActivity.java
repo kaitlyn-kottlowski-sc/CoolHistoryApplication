@@ -189,6 +189,12 @@ public class MapActivity extends FragmentActivity implements
 
     }
 
+
+
+    public void click_Home(View view) {
+        setContentView(R.layout.activity_main_home;
+    }
+    
     public void onLocationChanged(Location location) {
         // You can now create a LatLng Object for use with maps
         final LatLng latLng = new LatLng(41.365475, -93.564849);
