@@ -20,6 +20,17 @@
             android:orientation="vertical"
             android:layout_margin="16dp"
             android:background="#B22222">
+            <ImageButton
+                android:id="@+id/main_fromMap"
+                android:layout_width="67dp"
+                android:layout_height="72dp"
+                android:layout_marginBottom="4dp"
+                android:background="#B22222"
+                android:contentDescription="@string/go_back_to_main_page"
+                android:onClick="clickHome"
+                android:src="@drawable/ic_home_white_75dp"
+                tools:ignore="VectorDrawableCompat" />
+
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"

@@ -21,11 +21,19 @@
             android:value="@string/map_key"/>
 
         <activity android:name=".MapPopActivity" />
-        <activity android:name=".MapActivity" />
+        <activity android:name=".MapActivity"
+            android:parentActivityName=".MainActivity"
+            tools:targetApi="jelly_bean" />
         <activity android:name=".InfoActivity"
             android:parentActivityName=".MainActivity"
             tools:targetApi="jelly_bean" />
         <activity android:name=".HelpActivity"
+            android:parentActivityName=".MainActivity"
+            tools:targetApi="jelly_bean"/>
+        <activity android:name=".ScrollActivity"
+            android:parentActivityName=".MainActivity"
+            tools:targetApi="jelly_bean"/>
+        <activity android:name=".McneilActivity"
             android:parentActivityName=".MainActivity"
             tools:targetApi="jelly_bean"/>
         <activity android:name=".MainActivity">
@@ -35,12 +43,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ScrollActivity"
-            android:parentActivityName=".MainActivity"
-            tools:targetApi="jelly_bean"/>
-        <activity android:name=".McneilActivity"
-            android:parentActivityName=".MainActivity"
-            tools:targetApi="jelly_bean"/>
+
     </application>
 
 </manifest>
