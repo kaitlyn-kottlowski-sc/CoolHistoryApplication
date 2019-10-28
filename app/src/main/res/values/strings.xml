@@ -41,4 +41,10 @@
     <string name="simpson_college_history_app">Simpson College History App</string>
     <string name="help_page">Help Page</string>
     <string name="buttons_on_this_application">Buttons on this Application</string>
+    <string name="linktoSimpsonComputerScience">
+    <a href= "https://simpson.edu/academics/departments/academics/departments/department-computer-science/computer-science" > Computer Science Department</a>
+    </string>
+    <string name="linktoSimpsonAdmissions">
+    <a href= "https://simpson.edu/admission-aid" > Link to Simpson College Admissions</a>
+    </string>
 </resources>

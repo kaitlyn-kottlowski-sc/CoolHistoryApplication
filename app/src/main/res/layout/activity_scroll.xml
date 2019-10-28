@@ -29,67 +29,82 @@
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
+                android:onClick="click_Wallace"
                 android:text="@string/wallace_button"/>
+<!--            <Button-->
+<!--                android:layout_width="fill_parent"-->
+<!--                android:layout_height="fill_parent"-->
+<!--                android:text="@string/barker_hall"/>-->
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:text="@string/barker_hall"/>
-            <Button
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:onClick="click_BillBuxton"
                 android:text="@string/buxton_stadium_button"/>
+<!--            <Button-->
+<!--                android:layout_width="fill_parent"-->
+<!--                android:layout_height="fill_parent"-->
+<!--                android:text="@string/amy_robinson_music_center_button"/>-->
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:text="@string/amy_robinson_music_center_button"/>
+                android:text="@string/carver_hall_button"
+                android:onClick="click_Carver"/>
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:text="@string/carver_hall_button"/>
+                android:text="@string/college_hall_button"
+                android:onClick="click_College_Hall"/>
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:text="@string/college_hall_button"/>
+                android:text="@string/cowles_button"
+                android:onClick="click_Cowls"/>
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:text="@string/cowles_button"/>
+                android:text="@string/dunn_library_button"
+                android:onClick="click_Dunn"/>
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:text="@string/dunn_library_button"/>
+                android:text="@string/hillman_hall_button"
+                android:onClick="click_Hillman"/>
+
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:text="@string/hillman_hall_button"/>
+                android:onClick="clickHopper"
+                android:text="@string/hopper_gym_button"
+                />
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:text="@string/hopper_gym_button"/>
+                android:text="@string/kent_button"
+                android:onClick="click_Kent"/>
+<!--            <Button-->
+<!--                android:layout_width="fill_parent"-->
+<!--                android:layout_height="fill_parent"-->
+<!--                android:text="@string/kresge_hall"/>-->
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:text="@string/kent_button"/>
+                android:text="@string/mary_berry_hall"
+                android:onClick="click_Mary_Berry"/>
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:text="@string/kresge_hall"/>
-            <Button
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:text="@string/mary_berry_hall"/>
-            <Button
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:onClick="click_McNeil"
                 android:text="@string/mcneill_hall_button"/>
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
+                android:onClick="click_GreatHall"
                 android:text="@string/pfieffer_and_great_hall_button"/>
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:text="@string/smith_chapel_button"/>
+                android:text="@string/smith_chapel_button"
+                android:onClick="click_Smith_Chapel"/>
 
         </LinearLayout>
 

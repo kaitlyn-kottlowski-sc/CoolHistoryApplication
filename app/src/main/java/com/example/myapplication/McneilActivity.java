@@ -17,31 +17,19 @@ import java.text.BreakIterator;
 import java.util.Objects;
 
 import java.util.Objects;
-public class InfoActivity extends AppCompatActivity {
+public class McneilActivity extends AppCompatActivity {
 
     @SuppressLint("NewApi")
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_info);
+        setContentView(R.layout.activity_mcneil);
 
 
-        Objects.requireNonNull(getSupportActionBar()).setTitle("Information");
+        Objects.requireNonNull(getSupportActionBar()).setTitle("McNeil");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-
-        TextView text = findViewById(R.id.link_Simpson);
-
-         text.setMovementMethod(LinkMovementMethod.getInstance());
-
-
-    }
-
-    public void click_back(View view)
-    {
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
-
-    }
-}
+        TextView text = findViewById(R.id.link_Computer_Science);
+        text.setMovementMethod(LinkMovementMethod.getInstance());
+    }}

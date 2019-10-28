@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/title_smith_chapel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Smith Chapel"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="172dp"
+        app:srcCompat="@drawable/mcneill" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="149dp"
+        android:text=" \nMcNeil is home to many different classes at Simpson College. \n Built in 1970, the building hosts the History, Political Science, Business, Communications, Human Services, and the Computer Science department. \n\n Consisting of three floors, the building has 7 academic classrooms and several faculty offices. " />
+
+
+    <TextView
+        android:id="@+id/link_ComputerScience"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="@string/linktoSimpsonComputerScience" />
+
+    <ImageButton
+        android:id="@+id/main_fromMap"
+        android:layout_width="67dp"
+        android:layout_height="72dp"
+        android:layout_marginBottom="4dp"
+        android:background="#B22222"
+        android:contentDescription="@string/go_back_to_main_page"
+        android:onClick="clickHome"
+        android:src="@drawable/ic_home_white_75dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="VectorDrawableCompat" />
+
+
+
+
+</LinearLayout>
