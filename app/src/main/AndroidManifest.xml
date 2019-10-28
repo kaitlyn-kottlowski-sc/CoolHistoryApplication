@@ -3,11 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.myapplication">
 
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:icon="@mipmap/ic_launcher"
@@ -19,38 +17,17 @@
         android:fullBackupContent="@xml/backup_descriptor"
         android:allowBackup="false">
 
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="@string/map_key" />
-
+        <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key"/>
 
         <activity android:name=".MapPopActivity" />
         <activity android:name=".MapActivity" />
-        <activity android:name=".InfoActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
-
-                <data
-                    android:scheme="https"
-                    android:host="admissions.simpson.edu"
-                    android:pathPattern="/applyToSimpson" />
-            </intent-filter>
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
-
-                <data
-                    android:scheme="https"
-                    android:host="simpson.edu"
-                    android:pathPattern="/scholarship" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".HelpActivity" />
+        <activity android:name=".InfoActivity"
+            android:parentActivityName=".MainActivity"
+            tools:targetApi="jelly_bean" />
+        <activity android:name=".HelpActivity"
+            android:parentActivityName=".MainActivity"
+            tools:targetApi="jelly_bean"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -58,6 +35,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ScrollActivity"
+            android:parentActivityName=".MainActivity"
+            tools:targetApi="jelly_bean"/>
+        <activity android:name=".McneilActivity"
+            android:parentActivityName=".MainActivity"
+            tools:targetApi="jelly_bean"/>
     </application>
 
 </manifest>

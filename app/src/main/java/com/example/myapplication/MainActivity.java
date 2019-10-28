@@ -80,6 +80,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void click_Wallace(View view)
     {
+
         setContentView(R.layout.activity_wallace);
     }
 
@@ -90,8 +91,42 @@ public class MainActivity extends AppCompatActivity {
 
     public void click_McNeil(View view)
     {
+
         setContentView(R.layout.activity_mcneil);
     }
 
+    public void click_Cowls(View view)
+    {
+        setContentView(R.layout.activity_cowls);
+    }
 
-}
+    public void click_Dunn(View view)
+    {
+        setContentView(R.layout.activity_dunn);
+    }
+    public void click_Hillman(View view)
+    {
+        setContentView(R.layout.activity_hillman);
+    }
+    public void click_Kent(View view)
+    {
+        setContentView(R.layout.activity_kent);
+    }
+    public void click_Mary_Berry(View view)
+    {
+        setContentView(R.layout.activity_mary_berry);
+    }
+    public void click_Smith_Chapel(View view)
+    {
+        setContentView(R.layout.activity_smith_chapel);
+    }
+
+    public void click_Carver(View view)
+    {
+        setContentView(R.layout.activity_carver);
+    }
+
+    public void click_College_Hall(View view)
+    {
+        setContentView(R.layout.activity_college_hall);
+    }}
