@@ -1,12 +1,17 @@
 package com.example.myapplication;
 
+
+import androidx.annotation.RequiresApi;
 import androidx.fragment.app.FragmentActivity;
 
+import android.app.ActionBar;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -21,10 +26,13 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
 
     GoogleMap map;
 
+    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map);
+
+
 
 
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
@@ -32,7 +40,11 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
         assert mapFragment != null;
         mapFragment.getMapAsync(this);
 
+
+
     }
+
+
 
     @Override
     public void onMapReady(GoogleMap googleMap) {
@@ -115,7 +127,10 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
 
     public void click_Home(View view) {
         setContentView(R.layout.activity_main_home);
+
     }
+
+
 }
 
 

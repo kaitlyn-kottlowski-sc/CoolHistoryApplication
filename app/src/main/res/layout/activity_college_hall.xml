@@ -8,10 +8,10 @@
 
 
     <TextView
-        android:id="@+id/title_great_hall"
+        android:id="@+id/title_college_hall"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Great Hall"
+        android:text="College Hall"
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     <ImageView
@@ -30,7 +30,7 @@
     <TextView
         android:id="@+id/link_ComputerScience"
         android:layout_width="match_parent"
-        android:layout_height="62dp"
+        android:layout_height="42dp"
         android:text="@string/linktoSimpsonComputerScience" />
 
     <ImageButton
