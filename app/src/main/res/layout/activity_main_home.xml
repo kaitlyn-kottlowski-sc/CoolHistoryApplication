@@ -15,7 +15,7 @@
         app:srcCompat="@drawable/simpson_college_logo"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="112dp" />
+        tools:layout_editor_absoluteY="150dp" />
 
     <ImageView
         android:id="@+id/map_button"

@@ -47,4 +47,7 @@
     <string name="linktoSimpsonAdmissions">
     <a href= "https://simpson.edu/admission-aid" > Link to Simpson College Admissions</a>
     </string>
+    <string name="linktoIowa">
+    <a href= "https://simpson.edu/academics/beyond-classroom/centers-services/iowa-history-center" > Link to Iowa History Center</a>
+    </string>
 </resources>
