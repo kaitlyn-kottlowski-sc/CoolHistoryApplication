@@ -1,8 +1,5 @@
 package com.example.myapplication;
 
-import androidx.annotation.RequiresApi;
-import androidx.appcompat.app.ActionBar;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
@@ -15,10 +12,8 @@ import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.drawable.Drawable;
 import android.location.Location;
-import android.os.Build;
 import android.os.Bundle;
 import android.os.Looper;
-import android.view.MenuItem;
 import android.view.View;
 
 import com.google.android.gms.location.FusedLocationProviderClient;
@@ -40,12 +35,9 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-import java.net.Inet4Address;
-import java.util.Objects;
-
 import static com.google.android.gms.location.LocationServices.getFusedLocationProviderClient;
 
-public class MapActivity extends AppCompatActivity implements OnMapReadyCallback {
+public class MapActivity extends FragmentActivity implements OnMapReadyCallback {
 
 
     private GoogleMap map;
@@ -55,7 +47,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
     FusedLocationProviderClient mFusedLocationClient;
     protected static final int REQUEST_FINE_LOCATION = 0x1;
 
-   // @RequiresApi(api = Build.VERSION_CODES.KITKAT)
+    //@RequiresApi(api = Build.VERSION_CODES.KITKAT)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -72,6 +64,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
 
 
     }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
@@ -86,7 +79,6 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
             return false;
         }
     }
-
 
 
     protected void startLocationUpdates() {
@@ -201,32 +193,35 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         greatPfieffer.setTag(greatPfiefferLatLng);
         buxtonStadium.setTag(buxtonStadiumLatLng);
         dunnLibrary.setTag(dunnLibraryLatLng);
-
-
+        // Wallace Marker clicker
         map.setOnMarkerClickListener(new GoogleMap.OnMarkerClickListener() {
             @Override
             public boolean onMarkerClick(Marker marker) {
 
                 Intent intent = new Intent(MapActivity.this, McneilActivity.class);
 
-
                 if(marker.getTag() == wallaceHallLatLng)
                 {
                     intent.putExtra("Layout", "activity_wallace");
                     startActivity(intent);
                 }
-                else if(marker.getTag() == maryBerryLatLng) {
+                else if(marker.getTag() == maryBerryLatLng)
+                {
+
                 }
                 else if(marker.getTag() == carverHallLatLng)
                 {
+                    // change to wallacehistory
 
                 }
                 else  if(marker.getTag() == collegeHallLatLng)
                 {
+                    // change to wallacehistory
 
                 }
                 else  if(marker.getTag() == smithChapelLatLng)
                 {
+                    // change to wallacehistory
 
                 }
                 else  if(marker.getTag() == hopperGymLatLng)
@@ -236,23 +231,34 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
                 }
                 else if(marker.getTag() == cowlesLatLng)
                 {
+                    // change to wallacehistory
 
                 }
-                else if(marker.getTag() == mcNeillHallLatLng)
+                else  if(marker.getTag() == mcNeillHallLatLng)
                 {
+                    setContentView(R.layout.activity_mcneil);
+
                     intent.putExtra("Layout", "McNeill");
                     startActivity(intent);
                 }
-                else  if(marker.getTag() == hillmanHallLatLng) {
+                else  if(marker.getTag() == hillmanHallLatLng)
+                {
+                    // change to wallacehistory
+
                 }
                 else  if(marker.getTag() == bpacLatLng)
                 {
+                    // change to wallacehistory
 
                 }
-                else  if(marker.getTag() == kentLatLng) {
+                else  if(marker.getTag() == kentLatLng)
+                {
+                    // change to wallacehistory
+
                 }
                 else  if(marker.getTag() == lekburgHallLatLng)
                 {
+                    // change to wallacehistory
 
                 }
                 else  if(marker.getTag() == greatPfiefferLatLng)
@@ -265,8 +271,10 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
                 }
                 else if(marker.getTag() == dunnLibraryLatLng)
                 {
-                }
+                    // change to wallacehistory
 
+
+                }
                 return false;
             }
         });

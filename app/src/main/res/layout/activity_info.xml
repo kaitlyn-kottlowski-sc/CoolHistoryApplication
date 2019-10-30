@@ -21,7 +21,7 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="144dp"
+        android:layout_height="143dp"
         app:srcCompat="@drawable/info_picture" />
 
     <TextView
@@ -49,8 +49,8 @@
     <TextView
         android:id="@+id/textView4"
         android:layout_width="match_parent"
-        android:layout_height="46dp"
-        android:text="@string/content"
+        android:layout_height="26dp"
+        android:text="John Doe, Jane Doe, and Joe Doe created the historical content."
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.284"
@@ -71,7 +71,7 @@
     <TextView
         android:id="@+id/textView8"
         android:layout_width="match_parent"
-        android:layout_height="52dp"
+        android:layout_height="22dp"
         android:text="Genevieve Block, Kaitlyn Kottlowski, and George Saucedo"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         app:layout_constraintEnd_toEndOf="parent"
@@ -93,13 +93,41 @@
     <TextView
         android:id="@+id/link_Simpson"
         android:layout_width="match_parent"
-        android:layout_height="90dp"
+        android:layout_height="24dp"
         android:text="@string/linktoSimpsonAdmissions"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.284"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="This App was brought to you by the Iowa History Center at Simpson College. Click the link below to lean more: "
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.284"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/link_Iowa"
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:text="@string/linktoIowa"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.284"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView_iowa"
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        app:srcCompat="@drawable/iowa_history_center" />
 
 
 

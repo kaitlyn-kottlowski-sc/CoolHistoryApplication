@@ -35,6 +35,10 @@ public class InfoActivity extends AppCompatActivity {
 
          text.setMovementMethod(LinkMovementMethod.getInstance());
 
+        TextView otherText = findViewById(R.id.link_Iowa);
+
+        otherText.setMovementMethod(LinkMovementMethod.getInstance());
+
 
     }
 
