@@ -62,7 +62,6 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         setContentView(R.layout.activity_map);
         startLocationUpdates();
 
-
         Objects.requireNonNull(getSupportActionBar()).setTitle("Simpson College Map");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
@@ -75,14 +74,16 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
     }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case android.R.id.home:
-                // API 5+ solution
-                onBackPressed();
-                return true;
 
-            default:
-                return super.onOptionsItemSelected(item);
+        int id = item.getItemId();
+
+        if (id==android.R.id.home) {
+            finish();
+            return true;
+        }
+        else
+        {
+            return false;
         }
     }
 
@@ -128,7 +129,6 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         // Set map to satellite mode
         map.setMapType(GoogleMap.MAP_TYPE_SATELLITE);
 
-
         if(checkPermissions()) {
             googleMap.setMyLocationEnabled(true);
         }
@@ -137,7 +137,6 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         final LatLng simpson = new LatLng(41.365475, -93.564849);
         final CameraUpdate newLoc = CameraUpdateFactory.newLatLngZoom(simpson, 17);
         map.animateCamera(newLoc);
-
 
         // Initialize Building LatLng and Markers
         final LatLng wallaceHallLatLng = new LatLng(41.365112, -93.562948);
@@ -208,10 +207,13 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
             @Override
             public boolean onMarkerClick(Marker marker) {
 
+                Intent intent = new Intent(MapActivity.this, McneilActivity.class);
+
 
                 if(marker.getTag() == wallaceHallLatLng)
                 {
-                    setContentView(R.layout.activity_wallace);
+                    intent.putExtra("Layout", "activity_wallace");
+                    startActivity(intent);
                 }
                 else if(marker.getTag() == maryBerryLatLng) {
                 }
@@ -229,7 +231,8 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
                 }
                 else  if(marker.getTag() == hopperGymLatLng)
                 {
-                    setContentView(R.layout.activity_hopper);
+                    intent.putExtra("Layout", "Hopper");
+                    startActivity(intent);
                 }
                 else if(marker.getTag() == cowlesLatLng)
                 {
@@ -237,11 +240,8 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
                 }
                 else if(marker.getTag() == mcNeillHallLatLng)
                 {
-                    Intent intent = new Intent(MapActivity.this, McneilActivity.class);
-                    intent.putExtra("Layout", "activity_mcniel");
+                    intent.putExtra("Layout", "McNeill");
                     startActivity(intent);
-
-
                 }
                 else  if(marker.getTag() == hillmanHallLatLng) {
                 }

@@ -34,9 +34,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<!--        <activity android:name=".ScrollActivity"-->
-<!--            android:parentActivityName=".MainActivity"-->
-<!--            tools:targetApi="jelly_bean"/>-->
+        <activity android:name=".ScrollActivity"
+            android:parentActivityName=".MainActivity"
+            tools:targetApi="jelly_bean"/>
         <activity android:name=".McneilActivity"
             android:parentActivityName=".MainActivity"
             tools:targetApi="jelly_bean"/>
