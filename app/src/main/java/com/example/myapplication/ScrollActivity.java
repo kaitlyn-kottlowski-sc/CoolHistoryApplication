@@ -2,6 +2,7 @@ package com.example.myapplication;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,6 +10,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.Objects;
 
 public class ScrollActivity extends AppCompatActivity {
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,70 +25,104 @@ public class ScrollActivity extends AppCompatActivity {
 
     public void clickHopper(View view){
 
-        Intent intent = new Intent(this, HistoryActivity.class);
-        intent.putExtra("Layout", "activity_hopper");
+        final Intent intent = new Intent(this, HistoryActivity.class);
+        int id = getResources().getIdentifier("activity_hopper", "layout", getPackageName());
+        intent.putExtra("layout_id", id);
         startActivity(intent);
     }
 
     public void click_BillBuxton(View view)
     {
-        setContentView(R.layout.activity_bill_buxton);
+        final Intent intent = new Intent(this, HistoryActivity.class);
+        int id = R.layout.activity_bill_buxton;
+        intent.putExtra("layout_id", id);
+        startActivity(intent);
     }
 
     public void click_Wallace(View view)
     {
-
-        setContentView(R.layout.activity_wallace);
+        final Intent intent = new Intent(this, HistoryActivity.class);
+        int id = R.layout.activity_wallace;
+        intent.putExtra("layout_id", id);
+        startActivity(intent);
     }
 
     public void click_GreatHall(View view)
     {
-        setContentView(R.layout.activity_greathall);
-    }
-
-    public void click_McNeil(View view)
-    {
-
-        Intent intent = new Intent(ScrollActivity.this, HistoryActivity.class);
-        intent.putExtra("Layout", "McNeill");
+        final Intent intent = new Intent(this, HistoryActivity.class);
+        int id = R.layout.activity_greathall;
+        intent.putExtra("layout_id", id);
         startActivity(intent);
     }
 
-    public void click_Cowls(View view)
+    public void click_McNeill(View view)
     {
+        final Intent intent = new Intent(this, HistoryActivity.class);
 
-        setContentView(R.layout.activity_cowles);
+        int id = R.layout.activity_mcneill;
+        intent.putExtra("layout_id", id);
+        startActivity(intent);
+    }
+
+    public void click_Cowles(View view)
+    {
+        final Intent intent = new Intent(this, HistoryActivity.class);
+        int id = R.layout.activity_cowles;
+        intent.putExtra("layout_id", id);
+        startActivity(intent);
     }
 
     public void click_Dunn(View view)
     {
-        setContentView(R.layout.activity_dunn);
+        final Intent intent = new Intent(this, HistoryActivity.class);
+        int id = R.layout.activity_dunn;
+        intent.putExtra("layout_id", id);
+        startActivity(intent);
     }
     public void click_Hillman(View view)
     {
-        setContentView(R.layout.activity_hillman);
+        final Intent intent = new Intent(this, HistoryActivity.class);
+        int id = R.layout.activity_hillman;
+        intent.putExtra("layout_id", id);
+        startActivity(intent);
     }
     public void click_Kent(View view)
     {
-        setContentView(R.layout.activity_kent);
+        final Intent intent = new Intent(this, HistoryActivity.class);
+        int id = R.layout.activity_kent;
+        intent.putExtra("layout_id", id);
+        startActivity(intent);
     }
     public void click_Mary_Berry(View view)
     {
-        setContentView(R.layout.activity_mary_berry);
+        final Intent intent = new Intent(this, HistoryActivity.class);
+        int id = R.layout.activity_mary_berry;
+        intent.putExtra("layout_id", id);
+        startActivity(intent);
     }
     public void click_Smith_Chapel(View view)
     {
-        setContentView(R.layout.activity_smith_chapel);
+        final Intent intent = new Intent(this, HistoryActivity.class);
+        int id = R.layout.activity_smith_chapel;
+        intent.putExtra("layout_id", id);
+        startActivity(intent);
     }
 
     public void click_Carver(View view)
     {
-        setContentView(R.layout.activity_carver);
+        final Intent intent = new Intent(this, HistoryActivity.class);
+        int id = R.layout.activity_carver;
+        intent.putExtra("layout_id", id);
+        startActivity(intent);
     }
 
     public void click_College_Hall(View view)
     {
-        setContentView(R.layout.activity_college_hall);
+        final Intent intent = new Intent(this, HistoryActivity.class);
+        int id = R.layout.activity_college_hall;
+        intent.putExtra("layout_id", id);
+        startActivity(intent);
     }
-}
 
+
+}

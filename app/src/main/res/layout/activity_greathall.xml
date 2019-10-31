@@ -8,6 +8,7 @@
     tools:context=".HistoryActivity">
 
 
+
     <TextView
         android:id="@+id/title_great_hall"
         android:layout_width="match_parent"
@@ -19,7 +20,7 @@
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="172dp"
-        app:srcCompat="@drawable/mcneill" />
+        app:srcCompat="@drawable/info_picture" />
 
     <TextView
         android:id="@+id/textView4"
@@ -29,12 +30,10 @@
 
 
     <TextView
-        android:id="@+id/link_ComputerScience"
+        android:id="@+id/link_Computer_Science"
         android:layout_width="match_parent"
-        android:layout_height="62dp"
+        android:layout_height="149dp"
         android:text="@string/linktoSimpsonComputerScience" />
-
-
 
 
 

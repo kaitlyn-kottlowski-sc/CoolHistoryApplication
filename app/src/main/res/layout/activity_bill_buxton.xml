@@ -15,11 +15,12 @@
         android:text="Bill Buxton"
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="172dp"
-        app:srcCompat="@drawable/mcneill" />
+        app:srcCompat="@drawable/info_picture" />
 
     <TextView
         android:id="@+id/textView4"
@@ -28,11 +29,13 @@
         android:text=" \nMcNeil is home to many different classes at Simpson College. \n Built in 1970, the building hosts the History, Political Science, Business, Communications, Human Services, and the Computer Science department. \n\n Consisting of three floors, the building has 7 academic classrooms and several faculty offices. " />
 
 
+
     <TextView
-        android:id="@+id/link_ComputerScience"
+        android:id="@+id/link_Computer_Science"
         android:layout_width="match_parent"
-        android:layout_height="311dp"
+        android:layout_height="149dp"
         android:text="@string/linktoSimpsonComputerScience" />
+
 
 
 

@@ -10,7 +10,7 @@ import androidx.core.content.ContextCompat;
 
 import static com.example.myapplication.MapActivity.REQUEST_FINE_LOCATION;
 
-public class Permission {
+public class Permissions {
 
     public static boolean checkPermissions(Activity activity) {
         if (ContextCompat.checkSelfPermission(activity,

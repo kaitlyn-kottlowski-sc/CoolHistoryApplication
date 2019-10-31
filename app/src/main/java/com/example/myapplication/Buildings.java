@@ -1,6 +1,7 @@
 package com.example.myapplication;
 
 import android.content.Intent;
+import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,6 +12,8 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
+import java.util.ArrayList;
+
 public class Buildings extends AppCompatActivity {
 
     final static String[] buildingNames = {"Wallace Hall", "Mary Berry", "Carver Hall", "College Hall",
@@ -18,7 +21,7 @@ public class Buildings extends AppCompatActivity {
             "BPAC", "Kent Campus Center", "Lekburg Recital Hall", "Great Hall/Pfieffer Dining",
             "Bill Buxton Stadium", "Dunn Library"};
 
-    final static LatLng[] latLngs = {new LatLng(41.365068, -93.562963),
+    final static LatLng[] buildingLatLngs = {new LatLng(41.365068, -93.562963),
             new LatLng(41.365537, -93.564544),
             new LatLng(41.363742, -93.563243),
             new LatLng(41.364976, -93.563648),
@@ -35,10 +38,11 @@ public class Buildings extends AppCompatActivity {
             new LatLng(41.365502, -93.563619)
         };
 
-    final static String[] buildingLayouts = {"activity_wallace", "activity_mary_berry", "activity_carver",
-            "activity_college_hall", "activity_smith_chapel", "activity_hopper", "activity_cowles",
-            "activity_mcneill", "activity_hillman", "activity_bpac", "activity_kent", "activity_lekburg",
-    "activity_greathall", "activity_bill_buxton", "activity_dunn"};
+    final static int[] buildingLayoutIDs = {R.layout.activity_wallace, R.layout.activity_mary_berry,
+            R.layout.activity_carver, R.layout.activity_college_hall, R.layout.activity_smith_chapel,
+            R.layout.activity_hopper, R.layout.activity_cowles, R.layout.activity_mcneill,
+            R.layout.activity_hillman, R.layout.activity_bpac, R.layout.activity_kent,
+            R.layout.activity_greathall, R.layout.activity_bill_buxton, R.layout.activity_dunn};
 
 
     public static void setViewLocation(GoogleMap map)
@@ -51,24 +55,15 @@ public class Buildings extends AppCompatActivity {
     }
 
 
-    public static LatLng[] getBuildingLatLngs()
-    {
-        return latLngs;
-    }
-    public static String[] getBuildingLayouts()
-    {
-        return buildingLayouts;
-    }
-
 
     public static Marker[] getBuildingMarkers(GoogleMap map)
     {
         Marker[] buildingMarkers = new Marker[buildingNames.length];
         for(int i = 0; i < buildingNames.length; i++)
         {
-            final Marker marker = map.addMarker(new MarkerOptions().position(latLngs[i]));
+            final Marker marker = map.addMarker(new MarkerOptions().position(buildingLatLngs[i]));
             marker.setTitle(buildingNames[i]);
-            marker.setTag(latLngs[i]);
+            marker.setTag(buildingLatLngs[i]);
             buildingMarkers[i] = marker;
         }
 

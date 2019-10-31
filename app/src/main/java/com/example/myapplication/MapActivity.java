@@ -12,7 +12,6 @@ import android.location.Location;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Looper;
-import android.view.MenuItem;
 
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationCallback;
@@ -62,18 +61,6 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
 
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case android.R.id.home:
-                // API 5+ solution
-                finish();
-                return true;
-
-            default:
-                return super.onOptionsItemSelected(item);
-        }
-    }
 
     protected void startLocationUpdates() {
 
@@ -136,7 +123,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         map.setMapType(GoogleMap.MAP_TYPE_SATELLITE);
 
         // Check permissions
-        if (Permission.checkPermissions(this)) {
+        if (Permissions.checkPermissions(this)) {
             googleMap.setMyLocationEnabled(true);
         }
 
@@ -146,17 +133,17 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         // Get array of building marker objects
         final Marker[] buildingMarkers = Buildings.getBuildingMarkers(map);
 
+        final Intent intent = new Intent(this,HistoryActivity.class );
         // Marker Clicker
         map.setOnMarkerClickListener(new GoogleMap.OnMarkerClickListener() {
             @Override
             public boolean onMarkerClick(Marker marker) {
 
                 for (int i = 0; i < buildingMarkers.length; i++) {
-                    if (marker.getTag() == Buildings.getBuildingLatLngs()[i]) {
-
-                        int id = getResources().getIdentifier(Buildings
-                                .getBuildingLayouts()[i], "layout", getPackageName());
-                        setContentView(id);
+                    if (marker.getTag() == Buildings.buildingLatLngs[i]) {
+                        int id = Buildings.buildingLayoutIDs[i];
+                        intent.putExtra("layout_id", id);
+                        startActivity(intent);
                     }
                 }
                 return false;
