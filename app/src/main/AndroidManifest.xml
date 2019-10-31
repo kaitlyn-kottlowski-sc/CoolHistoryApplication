@@ -38,8 +38,7 @@
             android:parentActivityName=".MainActivity"
             tools:targetApi="jelly_bean"/>
         <activity android:name=".McneilActivity"
-            android:parentActivityName=".MainActivity"
-            tools:targetApi="jelly_bean"/>
+               />
     </application>
 
 </manifest>

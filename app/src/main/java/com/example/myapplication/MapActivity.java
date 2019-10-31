@@ -1,19 +1,24 @@
 package com.example.myapplication;
 
+import androidx.annotation.RequiresApi;
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.FragmentActivity;
 
 import android.Manifest;
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.drawable.Drawable;
 import android.location.Location;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Looper;
+import android.view.MenuItem;
 import android.view.View;
 
 import com.google.android.gms.location.FusedLocationProviderClient;
@@ -35,9 +40,11 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
+import java.util.Objects;
+
 import static com.google.android.gms.location.LocationServices.getFusedLocationProviderClient;
 
-public class MapActivity extends FragmentActivity implements OnMapReadyCallback {
+public class MapActivity extends AppCompatActivity implements OnMapReadyCallback {
 
 
     private GoogleMap map;
@@ -47,7 +54,9 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
     FusedLocationProviderClient mFusedLocationClient;
     protected static final int REQUEST_FINE_LOCATION = 0x1;
 
-    //@RequiresApi(api = Build.VERSION_CODES.KITKAT)
+    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
+
+    @SuppressLint("NewApi")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -67,19 +76,16 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                // API 5+ solution
+                finish();
+                return true;
 
-        int id = item.getItemId();
-
-        if (id==android.R.id.home) {
-            finish();
-            return true;
-        }
-        else
-        {
-            return false;
+            default:
+                return super.onOptionsItemSelected(item);
         }
     }
-
 
     protected void startLocationUpdates() {
 
@@ -193,6 +199,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
         greatPfieffer.setTag(greatPfiefferLatLng);
         buxtonStadium.setTag(buxtonStadiumLatLng);
         dunnLibrary.setTag(dunnLibraryLatLng);
+
         // Wallace Marker clicker
         map.setOnMarkerClickListener(new GoogleMap.OnMarkerClickListener() {
             @Override
@@ -236,7 +243,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
                 }
                 else  if(marker.getTag() == mcNeillHallLatLng)
                 {
-                    setContentView(R.layout.activity_mcneil);
+                    //setContentView(R.layout.activity_mcneil);
 
                     intent.putExtra("Layout", "McNeill");
                     startActivity(intent);
@@ -272,7 +279,6 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
                 else if(marker.getTag() == dunnLibraryLatLng)
                 {
                     // change to wallacehistory
-
 
                 }
                 return false;
@@ -329,13 +335,6 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
-
-//    public void click_BackBuilding(View view)
-//    {
-//        setContentView(R.layout.activity_map);
-//    }
-
-
 
 }
 

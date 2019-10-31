@@ -17,7 +17,8 @@ public class ScrollActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_scroll);
-        Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
+        Objects.requireNonNull(getSupportActionBar()).setTitle("Simpson Buildings");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
     }
 
