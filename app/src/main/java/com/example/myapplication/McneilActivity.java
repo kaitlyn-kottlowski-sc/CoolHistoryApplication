@@ -34,7 +34,8 @@ public class McneilActivity extends AppCompatActivity {
         String layout = Objects.requireNonNull(intent.getExtras()).getString("Layout");
 
         setContentView(R.layout.activity_mcneil);
-        Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
+        Objects.requireNonNull(getSupportActionBar()).setTitle("Historic Info");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         TextView text = findViewById(R.id.link_Computer_Science);
         text.setMovementMethod(LinkMovementMethod.getInstance());
@@ -44,7 +45,7 @@ public class McneilActivity extends AppCompatActivity {
         switch (item.getItemId()) {
             case android.R.id.home:
                 // API 5+ solution
-                onBackPressed();
+                finish();
                 return true;
 
             default:

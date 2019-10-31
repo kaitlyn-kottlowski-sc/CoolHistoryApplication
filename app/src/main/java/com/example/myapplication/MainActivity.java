@@ -26,8 +26,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void click_Map(View view) {
-        //Intent intent = new Intent(this, MapPopActivity.class);
-        Intent intent = new Intent(this, MapActivity.class);
+        Intent intent = new Intent(MainActivity.this, MapActivity.class);
         startActivity(intent);
     }
 
@@ -36,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
 
         Intent intent = new Intent(this, InfoActivity.class);
         startActivity(intent);
-
 
     }
 
