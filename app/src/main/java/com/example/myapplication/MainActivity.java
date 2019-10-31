@@ -22,42 +22,32 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_home);
+        setContentView(R.layout.activity_main);
+        getSupportActionBar().setTitle("");
     }
 
     public void click_Map(View view) {
-        Intent intent = new Intent(MainActivity.this, MapActivity.class);
+        Intent intent = new Intent(this, MapActivity.class);
         startActivity(intent);
     }
 
     public void changeViewInfo(View view) {
 
-
         Intent intent = new Intent(this, InfoActivity.class);
         startActivity(intent);
-
     }
-
 
     public void changeViewHelp(View view) {
 
         Intent intent = new Intent(this, HelpActivity.class);
         startActivity(intent);
-
-
     }
 
     public void changeViewList(View view) {
 
         Intent intent = new Intent(this, ScrollActivity.class);
         startActivity(intent);
-
     }
 
-
-    public void clickHome(View view) {
-
-        setContentView(R.layout.activity_main_home);
-    }
 
 }

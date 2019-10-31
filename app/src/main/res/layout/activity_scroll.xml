@@ -59,7 +59,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:text="@string/cowles_button"
-                android:onClick="click_Cowls"/>
+                android:onClick="click_Cowles"/>
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
@@ -94,7 +94,7 @@
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:onClick="click_McNeil"
+                android:onClick="click_McNeill"
                 android:text="@string/mcneill_hall_button"/>
             <Button
                 android:layout_width="fill_parent"

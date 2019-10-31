@@ -14,7 +14,7 @@
         android:layout_height="172dp"
         app:layout_constraintBottom_toTopOf="@+id/map_button"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.16"
         app:srcCompat="@drawable/simpson_college_logo"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp" />
@@ -23,13 +23,14 @@
         android:id="@+id/map_button"
         android:layout_width="97dp"
         android:layout_height="94dp"
-        android:layout_marginTop="248dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="272dp"
         android:clickable="true"
         android:contentDescription="@string/map_button"
         android:focusable="true"
         android:onClick="click_Map"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.267"
+        app:layout_constraintHorizontal_bias="0.228"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@android:drawable/ic_dialog_map" />
@@ -38,29 +39,30 @@
         android:id="@+id/info_button"
         android:layout_width="88dp"
         android:layout_height="93dp"
-        android:layout_marginTop="400dp"
+        android:layout_marginTop="396dp"
+        android:layout_marginEnd="10dp"
         android:clickable="true"
         android:contentDescription="@string/info_button"
         android:focusable="true"
         android:onClick="changeViewInfo"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.284"
+        app:layout_constraintHorizontal_bias="0.256"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@android:drawable/ic_dialog_info" />
 
     <ImageView
         android:id="@+id/help_button"
-        android:layout_width="107dp"
-        android:layout_height="102dp"
-        android:layout_marginTop="392dp"
+        android:layout_width="110dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="390dp"
         android:clickable="true"
         android:contentDescription="@string/help_button"
         android:focusable="true"
         android:onClick="changeViewHelp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.754"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/info_button"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_help_black_24dp" />
 
@@ -68,18 +70,27 @@
         android:id="@+id/list_button"
         android:layout_width="129dp"
         android:layout_height="112dp"
-        android:layout_marginTop="240dp"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="272dp"
         android:clickable="true"
         android:contentDescription="@string/list_button"
         android:focusable="true"
         android:onClick="changeViewList"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.802"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/map_button"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_view_list_black_24dp" />
 
-
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/iowa_history_center" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

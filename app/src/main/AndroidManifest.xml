@@ -20,7 +20,10 @@
         <meta-data android:name="com.google.android.geo.API_KEY"
             android:value="@string/map_key"/>
 
-        <activity android:name=".MapActivity" />
+        <activity android:name=".MapActivity"
+            android:parentActivityName=".MainActivity"
+            tools:targetApi="jelly_bean"
+            />
         <activity android:name=".InfoActivity"
             android:parentActivityName=".MainActivity"
             tools:targetApi="jelly_bean" />
@@ -37,8 +40,7 @@
         <activity android:name=".ScrollActivity"
             android:parentActivityName=".MainActivity"
             tools:targetApi="jelly_bean"/>
-        <activity android:name=".McneilActivity"
-               />
+        <activity android:name=".HistoryActivity" />
     </application>
 
 </manifest>

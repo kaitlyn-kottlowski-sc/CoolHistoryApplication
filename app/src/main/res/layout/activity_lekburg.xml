@@ -9,10 +9,10 @@
 
 
     <TextView
-        android:id="@+id/title_hillman"
+        android:id="@+id/title_lekburg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hillman Hall"
+        android:text="Lekburg Recital Hall"
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
 
@@ -35,6 +35,7 @@
         android:layout_width="match_parent"
         android:layout_height="149dp"
         android:text="@string/linktoSimpsonComputerScience" />
+
 
 
 </LinearLayout>
