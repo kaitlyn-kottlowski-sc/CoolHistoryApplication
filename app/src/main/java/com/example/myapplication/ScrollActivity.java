@@ -2,9 +2,7 @@ package com.example.myapplication;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.method.LinkMovementMethod;
 import android.view.View;
-import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -24,7 +22,9 @@ public class ScrollActivity extends AppCompatActivity {
 
     public void clickHopper(View view){
 
-        setContentView(R.layout.activity_hopper);
+        Intent intent = new Intent(this, HistoryActivity.class);
+        intent.putExtra("Layout", "activity_hopper");
+        startActivity(intent);
     }
 
     public void click_BillBuxton(View view)
@@ -46,7 +46,7 @@ public class ScrollActivity extends AppCompatActivity {
     public void click_McNeil(View view)
     {
 
-        Intent intent = new Intent(ScrollActivity.this, McneilActivity.class);
+        Intent intent = new Intent(ScrollActivity.this, HistoryActivity.class);
         intent.putExtra("Layout", "McNeill");
         startActivity(intent);
     }
@@ -54,7 +54,7 @@ public class ScrollActivity extends AppCompatActivity {
     public void click_Cowls(View view)
     {
 
-        setContentView(R.layout.activity_cowls);
+        setContentView(R.layout.activity_cowles);
     }
 
     public void click_Dunn(View view)

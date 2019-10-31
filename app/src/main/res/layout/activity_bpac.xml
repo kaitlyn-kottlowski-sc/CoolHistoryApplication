@@ -9,10 +9,10 @@
 
 
     <TextView
-        android:id="@+id/title_great_hall"
+        android:id="@+id/title_bpac"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Great Hall"
+        android:text="BPAC"
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     <ImageView
@@ -25,14 +25,15 @@
         android:id="@+id/textView4"
         android:layout_width="match_parent"
         android:layout_height="149dp"
-        android:text=" \nMcNeil is home to many different classes at Simpson College. \n Built in 1970, the building hosts the History, Political Science, Business, Communications, Human Services, and the Computer Science department. \n\n Consisting of three floors, the building has 7 academic classrooms and several faculty offices. " />
+        android:text=" \BPAC is home to many different classes at Simpson College. \n Built in 1970, the building hosts the History, Political Science, Business, Communications, Human Services, and the Computer Science department. \n\n Consisting of three floors, the building has 7 academic classrooms and several faculty offices. " />
 
 
     <TextView
         android:id="@+id/link_ComputerScience"
         android:layout_width="match_parent"
-        android:layout_height="62dp"
+        android:layout_height="311dp"
         android:text="@string/linktoSimpsonComputerScience" />
+
 
 
 
