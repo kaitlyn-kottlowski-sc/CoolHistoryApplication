@@ -1,10 +1,8 @@
 package com.example.myapplication;
 
-import android.content.Intent;
-import android.view.View;
+import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -12,9 +10,10 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-import java.util.ArrayList;
+import java.util.Dictionary;
 
-public class Buildings extends AppCompatActivity {
+public class Buildings {
+
 
     final static String[] buildingNames = {"Wallace Hall", "Mary Berry", "Carver Hall", "College Hall",
             "Smith Chapel", "Hopper Gymnasium", "Cowles Fieldhouse", "McNeill Hall", "Hillman Hall",
@@ -38,12 +37,16 @@ public class Buildings extends AppCompatActivity {
             new LatLng(41.365502, -93.563619)
         };
 
+
     final static int[] buildingLayoutIDs = {R.layout.activity_wallace, R.layout.activity_mary_berry,
             R.layout.activity_carver, R.layout.activity_college_hall, R.layout.activity_smith_chapel,
             R.layout.activity_hopper, R.layout.activity_cowles, R.layout.activity_mcneill,
-            R.layout.activity_hillman, R.layout.activity_bpac, R.layout.activity_kent,
+            R.layout.activity_hillman, R.layout.activity_bpac, R.layout.activity_kent, R.layout.activity_lekburg,
             R.layout.activity_greathall, R.layout.activity_bill_buxton, R.layout.activity_dunn};
 
+    final static int[] buildingButtonIDs = {R.id.wallace, R.id.mary_berry, R.id.carver, R.id.college,
+            R.id.smith, R.id.hopper, R.id.cowles, R.id.mcneill, R.id.hillman, R.id.title_bpac, R.id.kent,
+            R.id.lekburg, R.id.great_pfieffer, R.id.bill_buxton, R.id.dunn};
 
     public static void setViewLocation(GoogleMap map)
     {
@@ -54,30 +57,18 @@ public class Buildings extends AppCompatActivity {
 
     }
 
-
-
     public static Marker[] getBuildingMarkers(GoogleMap map)
     {
         Marker[] buildingMarkers = new Marker[buildingNames.length];
         for(int i = 0; i < buildingNames.length; i++)
         {
-            final Marker marker = map.addMarker(new MarkerOptions().position(buildingLatLngs[i]));
-            marker.setTitle(buildingNames[i]);
-            marker.setTag(buildingLatLngs[i]);
-            buildingMarkers[i] = marker;
+            final Marker buildingMarker = map.addMarker(new MarkerOptions().position(buildingLatLngs[i]));
+            buildingMarker.setTitle(buildingNames[i]);
+            buildingMarker.setTag(buildingLatLngs[i]);
+            buildingMarkers[i] = buildingMarker;
         }
 
         return buildingMarkers;
     }
-
-    public static Marker setMarker(Marker mCurrLocationMarker, LatLng latLng, GoogleMap map, String title)
-    {
-        mCurrLocationMarker = map.addMarker(new MarkerOptions().position(latLng)
-                .title(title));
-        mCurrLocationMarker.setTag(title);
-
-        return mCurrLocationMarker;
-    }
-
 
 }

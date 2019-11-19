@@ -21,94 +21,121 @@
             android:layout_margin="16dp"
             android:background="#B22222">
 
-<!--            <TextView-->
-<!--                android:layout_width="fill_parent"-->
-<!--                android:layout_height="fill_parent"-->
-<!--                android:padding="10dp"-->
-<!--                android:text="@string/simpson_building_text"-->
-<!--                android:textStyle="bold"/>-->
-            <Button
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:onClick="click_Wallace"
-                android:text="@string/wallace_button"/>
-<!--            <Button-->
-<!--                android:layout_width="fill_parent"-->
-<!--                android:layout_height="fill_parent"-->
-<!--                android:text="@string/barker_hall"/>-->
-            <Button
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:onClick="click_BillBuxton"
-                android:text="@string/buxton_stadium_button"/>
-<!--            <Button-->
-<!--                android:layout_width="fill_parent"-->
-<!--                android:layout_height="fill_parent"-->
-<!--                android:text="@string/amy_robinson_music_center_button"/>-->
-            <Button
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:text="@string/carver_hall_button"
-                android:onClick="click_Carver"/>
-            <Button
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:text="@string/college_hall_button"
-                android:onClick="click_College_Hall"/>
-            <Button
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:text="@string/cowles_button"
-                android:onClick="click_Cowles"/>
-            <Button
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:text="@string/dunn_library_button"
-                android:onClick="click_Dunn"/>
-            <Button
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:text="@string/hillman_hall_button"
-                android:onClick="click_Hillman"/>
 
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:onClick="clickHopper"
-                android:text="@string/hopper_gym_button"
+                android:onClick="onClick"
+                android:id="@+id/wallace"
+                android:tag="@string/wallace_hall"
+                android:text="@string/wallace_hall"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="onClick"
+                android:id="@+id/lekburg"
+                android:tag="@string/lekburg"
+                android:text="@string/lekburg"/>
+
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="onClick"
+                android:id="@+id/bill_buxton"
+                android:tag="@string/buxton_stadium"
+                android:text="@string/buxton_stadium"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:tag="@string/carver_hall"
+                android:text="@string/carver_hall"
+                android:id="@+id/carver"
+                android:onClick="onClick"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/college_hall"
+                android:tag="@string/college_hall"
+                android:id="@+id/college"
+                android:onClick="onClick"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/cowles"
+                android:tag="@string/cowles"
+                android:id="@+id/cowles"
+                android:onClick="onClick"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/dunn_library"
+                android:tag="@string/dunn_library"
+                android:id="@+id/dunn"
+                android:onClick="onClick"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/hillman_hall"
+                android:id="@+id/hillman"
+                android:tag="@string/hillman_hall"
+                android:onClick="onClick"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="onClick"
+                android:id="@+id/hopper"
+                android:text="@string/hopper"
+                android:tag="@string/hopper"
                 />
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:text="@string/kent_button"
-                android:onClick="click_Kent"/>
-<!--            <Button-->
-<!--                android:layout_width="fill_parent"-->
-<!--                android:layout_height="fill_parent"-->
-<!--                android:text="@string/kresge_hall"/>-->
+                android:text="@string/kent"
+                android:id="@+id/kent"
+                android:tag="@string/kent"
+                android:onClick="onClick"/>
+
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:text="@string/mary_berry_hall"
-                android:onClick="click_Mary_Berry"/>
+                android:text="@string/mary_berry"
+                android:id="@+id/mary_berry"
+                android:tag="@string/mary_berry"
+                android:onClick="onClick"/>
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:onClick="click_McNeill"
-                android:text="@string/mcneill_hall_button"/>
+                android:onClick="onClick"
+                android:tag="@string/mcneill_hall"
+                android:id="@+id/mcneill"
+                android:text="@string/mcneill_hall"/>
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:onClick="click_GreatHall"
-                android:text="@string/pfieffer_and_great_hall_button"/>
+                android:onClick="onClick"
+                android:id="@+id/great_pfieffer"
+                android:text="@string/pfieffer_great_hall"
+                android:tag="@string/pfieffer_great_hall"/>
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:text="@string/smith_chapel_button"
-                android:onClick="click_Smith_Chapel"/>
+                android:text="@string/smith_chapel"
+                android:id="@+id/smith"
+                android:tag="@string/smith_chapel"
+                android:onClick="onClick"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/smith_chapel"
+                android:id="@+id/bpac"
+                android:tag="@string/bpac"
+                android:onClick="onClick"/>
 
         </LinearLayout>
 
     </ScrollView>
-
-<!--</LinearLayout>-->

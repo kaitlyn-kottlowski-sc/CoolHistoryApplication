@@ -8,10 +8,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
-import static com.example.myapplication.MapActivity.REQUEST_FINE_LOCATION;
 
 public class Permissions {
 
+    private static final int REQUEST_FINE_LOCATION = 0x1;
     public static boolean checkPermissions(Activity activity) {
         if (ContextCompat.checkSelfPermission(activity,
                 Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
