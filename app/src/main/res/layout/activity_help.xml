@@ -1,33 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HelpActivity">
+    android:layout_margin="10dp"
+
+    tools:layout_editor_absoluteY="8dp"
+    tools:layout_editor_absoluteX="8dp">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.simpsonhistory.simpsonhistoryapplication.HelpActivity">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/helpPageTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
         android:text="@string/help_page"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.284"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/simpsonImageInfo"
         android:layout_width="match_parent"
         android:layout_height="144dp"
-        app:srcCompat="@drawable/info_picture" />
+        app:srcCompat="@drawable/simpson"/>
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/anyQuestionsText"
+        android:paddingTop="20dp"
         android:layout_width="match_parent"
-        android:layout_height="42dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="@string/anyQuestionsText"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.284"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/emailSasserText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="20dp"
+        android:textAlignment="center"
+        android:paddingLeft="20dp"
+        android:text="@string/emailFriedricksText"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.284"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/anyErrorsText"
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:text="@string/anyErrorsText"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.284"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/emailSinclair"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:text="@string/emailSinclairText"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.284"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/buttonFunctionsText"
+        android:layout_width="match_parent"
+        android:paddingTop="20dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
         android:text="@string/buttons_on_this_application"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,10 +106,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/buttons_explanation"
+        android:id="@+id/buttonsExplanation"
         android:layout_width="match_parent"
-        android:layout_height="128dp"
-        android:text=" Help Button: Explains buttons to users \n Information Button: Who created the application \n Map Button: Simpson Map with GPS locator \n List Button: List of Simpson College Buildings "
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/buttonsExplanation"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.284"
@@ -48,7 +121,13 @@
 
 
 
-
+    <ImageView
+        android:id="@+id/simpsonIowaHistoryImageInfo"
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        app:srcCompat="@drawable/iowa_history_center" />
 
 
 </LinearLayout>
+
+</ScrollView>

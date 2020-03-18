@@ -1,22 +1,22 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="appName">My Application</string>
     <string name="sign_up_cap">SIGN UP</string>
     <string name="log_in_cap">LOG IN</string>
-    <string name="map_of_simpson_college_campus">Map of Simpson College</string>
-    <string name="wallace_hall">Wallace Hall</string>
-    <string name="mcneill_hall">McNeill Hall</string>
-    <string name="hillman_hall">Hillman Hall</string>
-    <string name="lekburg">Lekburg Recital Hall</string>
-    <string name="smith_chapel">Smith Chapel</string>
+    <string name="mapOfSimpsonCollegeCampus">Map of Simpson College</string>
+    <string name="wallaceHall">Wallace Hall</string>
+    <string name="mcneillHall">McNeill Hall</string>
+    <string name="hillmanHall">Hillman Hall</string>
+    <string name="amyRobinson">Amy Robinson Music Center</string>
+    <string name="smithChapel">Smith Memorial Chapel</string>
     <string name="carver_hall">Carver Hall</string>
     <string name="buxton_stadium">Bill Buxton Stadium</string>
     <string name="dunn_library">Dunn Library</string>
     <string name="college_hall">College Hall</string>
-    <string name="mary_berry">Mary Berry</string>
-    <string name="pfieffer_great_hall">Great Hall/Pfieffer Dining</string>
+    <string name="mary_berry">Mary Berry Hall</string>
+    <string name="pfieffer_great_hall">Pfieffer Dining and Great Hall</string>
     <string name="hopper">Hopper Gymnasium</string>
     <string name="kent">Kent Campus Center</string>
-    <string name="cowles">Cowles Fieldhouse</string>
+    <string name="cowles">Cowles Fieldhouse and Carse Hall</string>
     <string name="simpson_college_application">Simpson College Application</string>
     <string name="info_button">info_button</string>
     <string name="map_button">map_button</string>
@@ -29,25 +29,203 @@
     <string name="go_to_map">Go to Map</string>
     <string name="go_back_to_main_page">Go back to Main Page</string>
     <string name="back">Back</string>
-    <string name="thanks_for_clicking">Thanks for clicking</string>
-    <string name="tip">Tip: When viewing map, click on the RED location icon of the building you want to learn more about.</string>
-    <string name="example_of_location_button">Example of location button</string>
     <string name="button">Button</string>
-    <string name="info_page_title">Info Page</string>
+    <string name="info_page_title">App Information</string>
     <string name="creators_of_this_app">Creators of this App</string>
-    <string name="content">Jane Doe, John Doe, Emily Doe, Mark Doe Created the historial conent on the app</string>
+    <string name="content">Kenzie Jeter, Levi Lefebure, Noah Nelson, Elliott Meyers, Laura Nielsen, Kenyon Draper, Aiden Ruble, Allie Tubbs, Simon Van Den Abbeele, Sienna Hancock, Kennedi Wright, Kyra Pastor, Abby Loecke, Nick Squires, Hannah Spencer, Rachel Miller</string>
     <string name="simpson_college_history_app">Simpson College History App</string>
     <string name="help_page">Help Page</string>
-    <string name="buttons_on_this_application">Buttons on this Application</string>
-    <string name="linktoSimpsonComputerScience">
-    <a href= "https://simpson.edu/academics/departments/academics/departments/department-computer-science/computer-science" > Computer Science Department</a>
-    </string>
+    <string name="buttons_on_this_application">What are the functions of the buttons?</string>
     <string name="linktoSimpsonAdmissions">
     <a href= "https://simpson.edu/admission-aid" > Link to Simpson College Admissions</a>
     </string>
     <string name="linktoIowa">
     <a href= "https://simpson.edu/academics/beyond-classroom/centers-services/iowa-history-center" > Link to Iowa History Center</a>
     </string>
+    <string name="linkToBillBuxton">
+    <a href= "https://simpson.edu/internal/bill-buxton-stadium">https://simpson.edu/internal/bill-buxton-stadium </a>
+    </string>
+    <string name="billBuxtonAuthor">By: Kenyon Draper</string>
+    <string name="billBuxtonHistory">\n   In 1998, the Simpson College football stadium was named Buxton Stadium in honor of William Buxton.
+        The Buxton family had four generations of Simpson board members and have long resided in Warren County as financiers and farmers.\n\n
+        The stadium hosts school sponsored sports like football, soccer, and track. It is also home to intramural competitions for Simpson students.
+        The football field has undergone several renovations to become what it is today and boasts a state-of-the-art turf field.</string>
+    <string name="linkToCarver">
+    <a href= "https://simpson.edu/internal/carver-science-center">https://simpson.edu/internal/carver-science-center </a>
+    </string>
+    <string name="carverHistory">\n\n   The Carver Science Center was built in October of 1956, named after George Washington Carver, one of Simpson’s
+        most famous alumni. Being the primary science center on campus, the building is home to Simpson’s Mathematics, Computer Science, Biology,
+        Environmental Science, Chemistry, and Physics Departments. The science hall is filled with chemistry, biology, and computer labs, all of
+        which have been freshly renovated. Carver Science Center is also home to Simpson’s largest classroom: Jordan Lecture Hall, which seats 120
+        students, an excellent testament to Simpson’s small classes and personalized education values.\n\n   Within the walls of Carver Science Hall,
+        there are also numerous bone and taxidermied animal displays. These gifts to the college are an excellent representation of Simpson’s partnerships
+        and connections with the Des Moines area and Iowa businesses.</string>
+    <string name="carverAuthor">By: Laura Nielsen</string>
+    <string name="linkToBpac">
+    <a href= "https://simpson.edu/internal/blank-performing-arts-center">https://simpson.edu/internal/blank-performing-arts-center </a>
+    </string>
+    <string name="bpacHistory">\n\n   The Blank Performance Arts Center or BPAC, as it is commonly called, is located on the western side of campus.
+        The building was built in 1971 as a home for the Theater Arts Department and has since become an integral part of Simpson’s culture. It was
+        named for Dr. A.H. and Mrs. Anna Blank who contributed financially to the project.\n\n   In 2011, Graham Construction and SVPA Architects
+        renovated the building whilst adding key offices, classrooms and a luxurious entry. Today, the center is used for a variety of purposes including,
+        classrooms and meetings, along with hosting productions. The center houses many of Simpson’s own productions and also Des Moines Metropolitan Opera productions.</string>
+    <string name="bpacAuthor">By: Aiden Ruble</string>
+    <string name="linkToAmy">
+        <a href="https://simpson.edu/internal/amy-robertson-music-center">https://simpson.edu/internal/amy-robertson-music-center</a>
+    </string>
+    <string name="amyHistoryPart1">\n   The Amy Robertson Music Center was named after Class of 1921 Alumnus, Amy Robertson, who donated $600,000 of the $1.8 million essential
+        for construction. Robertson graduated with a Bachelor’s in Music and was the seventh woman appointed to the Simpson Board of Trustees. Housed in the Amy Robertson Center
+        is Simpson’s music department which originated as a Music Conservatory. While most colleges offer a Bachelor of Arts degree, Simpson has the unique ability to provide
+        a Bachelor of Music degree.\n </string>
+    <string name="amyHistoryPart2">\n   The Bachelor of Music program offers a more rigorous and diverse curriculum that musicians would normally receive at a Conservatory while
+        also exposing students to a Liberal Arts Education. Construction on the southeast part of campus began on October 23, 1981 and the building was dedicated in May of 1983. The building houses
+        the Lekburg Recital Hall, James W. Helen Wallace Commons, Anna Hubbell Light Court, an instrumental music center, and dozens of practice rooms.</string>
+    <string name="amyAuthor">By: Allie Tubbs</string>
+    <string name="linkToCollege">
+        <a href="https://simpson.edu/internal/college-hall">https://simpson.edu/internal/college-hall </a>
+    </string>
+    <string name="collegeHistory">\n   College Hall’s construction was completed in 1870, where it was home to the College’s classes. At this time,
+        it concurrently served as the school’s chapel. Over the years, the building’s uses have shifted. It no longer has any classes or the chapel,
+        but instead holds the Admissions and Financial Aid offices and the Mathew Simpson room, which gets its name from the school’s first minister
+        and Founder.\n\n   College Hall is also the location where a girl named Mildred fell to her death after tripping over her dress following a class
+        she had on the third floor in 1935. Some believe her spirit still resides within the building.</string>
+    <string name="collegeAuthor">By: Simon Van Den Abbeele</string>
+    <string name="linkToMary">
+        <a href="https://simpson.edu/internal/mary-berry-hall">https://simpson.edu/internal/mary-berry-hall </a>
+    </string>
+    <string name="maryHistoryPart1">\n   Mary Berry Hall, originally named Ladies Hall, was built in 1891 and served as the female dormitory until 1967.
+        Mary Berry Hall is named after the daughter of former Simpson President Thomas S. Berry. Mary, while attending Simpson, died due to complications
+        after a surgery for appendicitis. She left half of her estate to the college, which came to a total of $3,622.12 in 1902 which translates to
+        $105,760.36 in 2019 dollars.\n</string>
+    <string name="maryHistoryPart2">\n   Currently, Mary Berry Hall is the home for the English, History, Philosophy, Political Science, Psychology,
+        Religion and World Language Departments. The building features a variety of classrooms and offices for professors. Mary Berry Hall is also
+        the home of the Farnham Art Gallery and the Iowa History Center.</string>
+    <string name="maryAuthor">By: Noah Nelsen</string>
+    <string name="linkToMcNeill">
+        <a href="https://simpson.edu/internal/mcneill-hall">https://simpson.edu/internal/mcneill-hall </a>
+    </string>
+    <string name="mcneillHistory">\n\n   The Henry H. and Thomas H. McNeill Business and Computer Science Center was built in 1985. Simpson College
+        was given a generous donation of almost 2 million dollars by Lettie Judkins McNeill, who was a graduate of the class of 1927. The building was
+        named after her late husband, Henry, and his twin brother, Thomas. This building is home to computer science programs, economics, and business.
+        \n\n   In 2012, a beautiful addition was added to the front of McNeill called McNeill Plaza. This new addition cost around $75,000 but really
+        helped to make McNeill Hall one of the most beautiful sites on campus. </string>
+    <string name="mcneillAuthor">By: Sienna Hancock</string>
+    <string name="linkToPfieffer">
+        <a href="https://simpson.edu/internal/pfieffer-dining-hall-and-great-hall">https://simpson.edu/internal/pfieffer-dining-hall-and-great-hall </a>
+    </string>
+    <string name="pfiefferHistory">\n\n   Pfeiffer Dining Hall and the Great Hall were built in 1954 and dedicated in 1955.
+        Named after Gustavus A. Pfeiffer, this building was created to house the dining center for campus as well as a
+        multi-purpose room and was initially referred to as a student union. The cost of building this two-story student union
+        was approximately $265,000. The building was renovated in 1973, 1976, following the outbreak of a fire, and finally in
+        2001.\n\n   Great Hall has served as a student lounge for dances, convocations, lectures, recitals, concerts and banquets,
+        while Pfeiffer continues to house the food buffet open to students during mealtimes.</string>
+    <string name="pfiefferAuthor">By: Elliott Meyers</string>
+    <string name="linkToSmith">
+        <a href="https://simpson.edu/internal/smith-memorial-chapel">https://simpson.edu/internal/smith-memorial-chapel </a>
+    </string>
+    <string name="smithHistory">\n\n   The Smith Chapel is the focal point for all religious activities on Simpson College’s
+        campus. The idea of Smith Chapel started in the early days of Dr. Kersetter’s time as president in 1953. Kresetter
+        found donors for the project, Alida and David O. Smith. The architect Arland Dirlam made construction plans, but
+        the Smiths not satisfied, sought something different. Another donor, Robert A. MacBain, left Simpson $425,000 upon
+        his death. The Smiths compromised on plans; construction thus began.\n\n   The dedication in October of 1968 of the
+        Smith Memorial Chapel marked the culmination of one of the longest building projects in the history of the college.
+        After years, David O. Smith and his sister Alida Smith were finally able to dedicate the chapel in memory of their
+        parents, Mrs. Annie Catherine Smith and Henry Gardner Smith. The chapel contains a mobile pipe organ, one of seven
+        in the world, that can be played through the carillon in the bell tower and provide music for the entire campus.
+        The Smith Chapel is used for interfaith campus worship, Madrigal Choir concerts and Honors Convocation among other events.</string>
+    <string name="smithAuthor">By: Kennedi Wright</string>
+    <string name="linkToCowles">
+        <a href="https://simpson.edu/internal/cowles-fieldhouse-and-carse-hall">https://simpson.edu/internal/cowles-fieldhouse-and-carse-hall </a>
+    </string>
+    <string name="cowlesHistory">\n  Carse Hall and Cowles Fieldhouse are Simpson College’s primary locations for athletics.
+        Carse comprises the hall that connects the Kent Campus Center to both Hopper Gymnasium and the Cowles Fieldhouse.
+        Cowles Fieldhouse was built in the mid-1970s and was named after the Cowles Foundation.\n\n  The Carse building was
+        constructed when Kent Campus Center was and houses the weight, fitness, and wrestling rooms, two racquetball courts,
+        and a dance studio. Cowles Fieldhouse is home to an indoor running facility, and the court used by our basketball and
+        volleyball teams. The size of the gym also lends itself to use for large events, such as graduation, on campus. The
+        location of these buildings near the center of campus set them up to make it easy for students to attend home games
+        and utilize the state-of-the-art facilities that they house.
+</string>
+    <string name="cowlesAuthor">By: Kyra Pastor</string>
+    <string name="linkToWallace">
+        <a href="https://simpson.edu/internal/wallace-hall"> https://simpson.edu/internal/wallace-hall </a>
+    </string>
+    <string name="wallaceHistory">\n  Originally housing music, laboratories, a library, and an art studio, Wallace Hall
+        is now home to the Education and Sociology Departments. Dedicated in 1889 as Science Hall, the building looked
+        much like it does today in the tall and box-like shape, with a skylight in the original. This building shows
+        the support of the community because it was originally built with bricks donated by a local businessman,
+        J. H. Carruthers. However, between 1889 and now, it underwent renovations in 1965 and again in 1996. The 1965
+        renovations completely restored the state of Wallace Hall after it had fallen into disrepair.\n\n  Wallace Hall is
+        named after Henry A. Wallace, former Vice President of the United States, husband of a Simpson alumna and brother
+        to a Simpson Board of Trustees member. As of 1991, Wallace Hall also holds a place on the National Register of Historical Places. </string>
+    <string name="wallaceAuthor">By: Abby Loecke</string>
+    <string name="linkToDunn">
+        <a href="https://simpson.edu/internal/dunn-library-0"> https://simpson.edu/internal/dunn-library-0 </a>
+    </string>
+    <string name="dunnHistory">\n  Dunn Library was completed in 1964 and named after a Simpson alum, Rex A. Dunn.
+        It provides students with a quiet workspace, a computer lab, and help on various research projects. Dunn has
+        a plethora of books but also has a collection of DVDs, CDs, ebooks, and much more for students and faculty to access.
+        You will find students studying for tests and working on homework throughout the day in Dunn Library, but it is
+        also home to three classrooms and the majority of the teacher education program materials.\n\n There is an ample
+        amount of seating in Dunn as there are comfy chairs and tables spread throughout so students can find a comfortable
+        place to work on their studies. Since its completion in 1964, Dunn has been providing resources for students and
+        faculty and will continue to do so in the future. </string>
+    <string name="dunnAuthor">By: Nick Squires</string>
+    <string name="linkToHillman">
+        <a href="https://simpson.edu/internal/hillman-hall"> https://simpson.edu/internal/hillman-hall </a>
+    </string>
+    <string name="hillmanHistoryPart1">\n  Built in 1920, Hillman Hall was originally known as Central Building and had
+        classrooms and administrative offices. In 1961, Central Building was renamed as Hillman Hall in honor Simpson’s
+        longest serving president, John L. Hillman who was president of the college from 1919-1936. During his time,
+        Dr. Hillman was responsible for a $1,000,000 endowment fund and expanded Simpson College onto the surrounding
+        land that much of our campus is on today.\n </string>
+    <string name="hillmanHistoryPart2">\n  Nearly 100 years later, the building now holds the offices of the President,
+        Academic Dean, Human Resources, Business, Marketing and Public Relations, Registrar, College Advancement and Alumni Relations.</string>
+    <string name="hillmanAuthor">By: Hannah Spencer</string>
+    <string name="linkToHopper">
+        <a href="https://simpson.edu/internal/hopper-gymnasium"> https://simpson.edu/internal/hopper-gymnasium </a>
+    </string>
+    <string name="hopperHistoryPart1">\n   Harry E. Hopper was Chairman of Simpson’s Board of Trustees and an earlier
+        Simpson College graduate in the class of 1893. As a Simpson alumni, Hopper knew that the college was in need
+        of a proper gymnasium, as the two small male and female gymnasiums were deteriorating fast. Therefore,
+        he approached William H. Berry with his proposal of building for the College out of his own pocket, the best
+        gymnasium in the Midwest. The project was completed in 1913 and cost around $100,000 to finish, with the whole
+        of that amount coming from Hopper’s personal fortune.\n
+</string>
+    <string name="hopperHistoryPart2">\n   Hopper Gymnasium was considered a massive structure at the time, and when
+        completed, the building was considered one of the finest in the state. Inside the building, it contained a
+        rectangular room filled by a basketball court., with various other facilities being contained in the basement.
+        Aside from a variety of athletic uses, Hopper was used for many years for commencement exercises and class
+        registration, along with many other activities. However, by the 1970s, Hopper had become obsolete for many
+        Simpson activities. The building itself is still sound and continues to be used for various athletic practices
+        and intramurals. However, with the building of Cowles Athletic Center, Hopper has become reduced to being used
+        as a supplement to this newer and more up-to-date facility.</string>
+    <string name="hopperAuthor">By: Rachel Miller</string>
+    <string name="linkToKent">
+        <a href="https://simpson.edu/internal/kent-campus-center"> https://simpson.edu/internal/kent-campus-center </a>
+    </string>
+    <string name="kentHistoryPart1">\n   Kent Campus Center was opened in 2012, replacing the Brenton Student Center.
+        With restaurants, such as Au Bon Pain, Millie’s’ Coffee Shop, Red Mango, and Tyler’s Grille, and lounge furniture,
+        Kent Campus Center offers different opportunities for students to relax during the school year.\n </string>
+    <string name="kentHistoryPart2">\n   The Kent Campus Center is named after James H. Kent, who along with contributions
+        from his family donated $4 million towards a new student center. The Black Box Theatre and Hubbell Hall host multiple
+        speakers and receptions. In addition, Kent Campus Center is the home to a conglomerate of resources for students
+        including Student Government Association, security and health services.</string>
+    <string name="kentAuthor">By: Noah Nelsen</string>
     <string name="bpac">Blank Performing Arts Center</string>
+
     <string name="scrollTitle">Simpson Buildings</string>
+    <string name="developmentTeamTitle">Development Team:</string>
+    <string name="developmentTeam">Genevieve Block, Kaitlyn Kottlowski, and George Saucedo</string>
+    <string name="areYouInterestedTitle">Interested in Attending Simpson College?</string>
+    <string name="clickAdmissionLinkText">Click the link below to apply:</string>
+    <string name="appBroughtToYouByTest">This App was brought to you by the Iowa History Center at Simpson College.</string>
+    <string name="clickIowaHistorySimpsonText">Click the link below to learn more about how you can be involved in the IHC:</string>
+    <string name="anyQuestionsText">Have any questions about the Iowa History Center or Simpson\'s History Department?</string>
+    <string name="emailFriedricksText">Email Bill Friedricks: Bill.Friedricks@simpson.edu</string>
+    <string name="emailSinclairText">Email Linda Sinclair:\n Linda.Sinclair@simpson.edu</string>
+    <string name="anyErrorsText">Problems with the App?</string>
+    <string name="buttonsExplanation">Information Button: Go to the page that shows who helped create the application  Map Button: Go to a google map of Simpson College with location markers marking Simpson buildings. The google map will also display the user\'s location, if allowed. Once user clicks on a marker, user goes to historical page for that building.  List Button: Go to a list of Simpson College buildings. From there, user can click on a button to see historical information about said building.</string>
+    <string name="content_contributors">Content Contributors:</string>
+    <string name="for_more_information_visit">For more information, visit</string>
 </resources>
