@@ -12,7 +12,7 @@ class Buildings {
 
     final static String[] buildingNames = {"Wallace Hall", "Mary Berry", "Carver Hall", "College Hall",
             "Smith Memorial Chapel", "Hopper Gymnasium", "Cowles Fieldhouse and Carse Hall", "McNeill Hall", "Hillman Hall",
-            "Blank Performing Arts Center", "Kent Campus Center", "Lekburg Recital Hall", "Pfieffer Dining and Great Hall",
+            "Blank Performing Arts Center", "Kent Campus Center", "Amy Robinson Music Center", "Pfieffer Dining and Great Hall",
             "Bill Buxton Stadium", "Dunn Library"};
 
     final static LatLng[] buildingLatLngs = {new LatLng(41.365068, -93.562963),
@@ -34,7 +34,7 @@ class Buildings {
 
 
     final static int[][] buildingInfo = {{R.string.wallaceHall, R.string.wallaceAuthor, R.drawable.wallace,  R.string.wallaceHistory, R.string.linkToWallace},
-            {R.string.mary_berry, R.string.maryAuthor, R.drawable.mary1,  R.string.maryHistoryPart1,R.drawable.mary2, R.string.maryHistoryPart2, R.string.linkToMary},
+            {R.string.mary_berry,  R.string.maryAuthor, R.drawable.mary1,  R.string.maryHistoryPart1,R.drawable.mary2, R.string.maryHistoryPart2, R.string.linkToMary},
             { R.string.carver_hall,R.string.carverAuthor, R.drawable.carver_hall,  R.string.carverHistory, R.string.linkToCarver},
             {R.string.college_hall, R.string.collegeAuthor,R.drawable.college_hall,  R.string.collegeHistory, R.string.linkToCollege},
             {R.string.smithChapel, R.string.smithAuthor, R.drawable.smith,  R.string.smithHistory, R.string.linkToSmith},
@@ -44,11 +44,10 @@ class Buildings {
             {R.string.hillmanHall, R.string.hillmanAuthor, R.drawable.hillman1,  R.string.hillmanHistoryPart1, R.drawable.hillman2,  R.string.hillmanHistoryPart2, R.string.linkToHillman},
             {R.string.bpac, R.string.bpacAuthor,R.drawable.bpac,  R.string.bpacHistory, R.string.linkToBpac},
             {R.string.kent, R.string.kentAuthor,R.drawable.kent1, R.string.kentHistoryPart1, R.drawable.kent2,  R.string.kentHistoryPart2, R.string.linkToKent},
-            {R.string.mary_berry, R.string.maryAuthor,R.drawable.mary1, R.string.maryHistoryPart1, R.drawable.mary2,  R.string.maryHistoryPart2, R.string.linkToMary},
+            {R.string.amyRobinson, R.string.amyAuthor,R.drawable.amy1, R.string.amyHistoryPart1, R.drawable.amy2,  R.string.amyHistoryPart2, R.string.linkToAmy},
             {R.string.pfieffer_great_hall, R.string.pfiefferAuthor,R.drawable.pfieffer_great_hall,  R.string.pfiefferHistory, R.string.linkToPfieffer},
             {R.string.buxton_stadium, R.string.billBuxtonAuthor, R.drawable.bill_buxton,  R.string.billBuxtonHistory, R.string.linkToBillBuxton},
-            {R.string.dunn_library, R.string.dunnAuthor, R.drawable.dunn,  R.string.dunnHistory, R.string.linkToDunn},
-            {R.string.amyRobinson, R.string.amyAuthor, R.drawable.amy1, R.string.amyHistoryPart1, R.drawable.amy2, R.string.amyHistoryPart2, R.string.linkToAmy}};
+            {R.string.dunn_library, R.string.dunnAuthor, R.drawable.dunn,  R.string.dunnHistory, R.string.linkToDunn}};
 
     final static String[] idNamesForOneImage = {"title", "author","image1", "history1", "link", "", ""};
     final static String[] idNamesForTwoImages = {"title", "author", "image1", "history1", "image2", "history2", "link"};

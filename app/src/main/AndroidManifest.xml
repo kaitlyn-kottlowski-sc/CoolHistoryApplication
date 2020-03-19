@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.simpsonhistory.simpsonhistoryapplication"
-    android:versionCode="3"
-    android:versionName="Version3"
+    android:versionCode="5"
+    android:versionName="Version 5"
     tools:ignore="GradleOverrides">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
@@ -12,8 +12,8 @@
 
     <application
         android:icon="@drawable/appicon"
-        android:label="@string/appName"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label= "@string/appName"
+        android:roundIcon="@drawable/appicon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning"
