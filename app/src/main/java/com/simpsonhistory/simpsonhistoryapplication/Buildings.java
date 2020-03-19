@@ -47,7 +47,8 @@ class Buildings {
             {R.string.mary_berry, R.string.maryAuthor,R.drawable.mary1, R.string.maryHistoryPart1, R.drawable.mary2,  R.string.maryHistoryPart2, R.string.linkToMary},
             {R.string.pfieffer_great_hall, R.string.pfiefferAuthor,R.drawable.pfieffer_great_hall,  R.string.pfiefferHistory, R.string.linkToPfieffer},
             {R.string.buxton_stadium, R.string.billBuxtonAuthor, R.drawable.bill_buxton,  R.string.billBuxtonHistory, R.string.linkToBillBuxton},
-            {R.string.dunn_library, R.string.dunnAuthor, R.drawable.dunn,  R.string.dunnHistory, R.string.linkToDunn}};
+            {R.string.dunn_library, R.string.dunnAuthor, R.drawable.dunn,  R.string.dunnHistory, R.string.linkToDunn},
+            {R.string.amyRobinson, R.string.amyAuthor, R.drawable.amy1, R.string.amyHistoryPart1, R.drawable.amy2, R.string.amyHistoryPart2, R.string.linkToAmy}};
 
     final static String[] idNamesForOneImage = {"title", "author","image1", "history1", "link", "", ""};
     final static String[] idNamesForTwoImages = {"title", "author", "image1", "history1", "image2", "history2", "link"};

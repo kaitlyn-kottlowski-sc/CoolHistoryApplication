@@ -1,5 +1,5 @@
 <resources>
-    <string name="appName">My Application</string>
+    <string name="appName">Simpson College Tour</string>
     <string name="sign_up_cap">SIGN UP</string>
     <string name="log_in_cap">LOG IN</string>
     <string name="mapOfSimpsonCollegeCampus">Map of Simpson College</string>
@@ -213,7 +213,6 @@
         including Student Government Association, security and health services.</string>
     <string name="kentAuthor">By: Noah Nelsen</string>
     <string name="bpac">Blank Performing Arts Center</string>
-
     <string name="scrollTitle">Simpson Buildings</string>
     <string name="developmentTeamTitle">Development Team:</string>
     <string name="developmentTeam">Genevieve Block, Kaitlyn Kottlowski, and George Saucedo</string>

@@ -27,6 +27,17 @@
 
             <Button
                 android:layout_width="fill_parent"
+                android:background="@color/colorPrimaryDark"
+                android:layout_marginBottom="10dp"
+                android:textColor="@android:color/white"
+                android:layout_height="fill_parent"
+                android:onClick="onClick"
+                android:id="@+id/amyButton"
+                android:tag="@string/amyRobinson"
+                android:text="@string/amyRobinson"/>
+
+            <Button
+                android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_marginBottom="10dp"
                 android:textColor="@android:color/white"
@@ -130,16 +141,7 @@
                 android:tag="@string/kent"
                 android:text="@string/kent" />
 
-            <Button
-                android:layout_width="fill_parent"
-                android:background="@color/colorPrimaryDark"
-                android:layout_marginBottom="10dp"
-                android:textColor="@android:color/white"
-                android:layout_height="fill_parent"
-                android:onClick="onClick"
-                android:id="@+id/amyButton"
-                android:tag="@string/amyRobinson"
-                android:text="@string/amyRobinson"/>
+
 
             <Button
                 android:layout_width="fill_parent"
