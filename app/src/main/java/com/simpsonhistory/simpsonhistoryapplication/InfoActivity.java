@@ -13,17 +13,20 @@ import android.widget.TextView;
 
 import java.util.Objects;
 
+import static android.content.pm.ActivityInfo.SCREEN_ORIENTATION_PORTRAIT;
+
 public class InfoActivity extends AppCompatActivity {
 
-    @SuppressLint("NewApi")
 
+    @SuppressLint("SourceLockedOrientationActivity")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_info);
 
+        this.setRequestedOrientation(SCREEN_ORIENTATION_PORTRAIT);
 
-        Objects.requireNonNull(getSupportActionBar()).setTitle("App Information");
+        Objects.requireNonNull(getSupportActionBar()).setTitle("Information Page");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 

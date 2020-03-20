@@ -19,15 +19,20 @@ import com.google.android.gms.maps.model.Marker;
 
 import java.util.Objects;
 
+import static android.content.pm.ActivityInfo.SCREEN_ORIENTATION_PORTRAIT;
+
 public class MapActivity extends AppCompatActivity implements OnMapReadyCallback {
 
     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
-    @SuppressLint("NewApi")
+
+    @SuppressLint("SourceLockedOrientationActivity")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map);
         startLocationUpdates();
+
+        this.setRequestedOrientation(SCREEN_ORIENTATION_PORTRAIT);
 
         // Reference: https://stackoverflow.com/questions/10108774/how-to-implement-the-android-actionbar-back-button
         String mapTitle = getResources().getString(R.string.mapOfSimpsonCollegeCampus);

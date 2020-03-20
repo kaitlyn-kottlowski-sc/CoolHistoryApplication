@@ -1,5 +1,6 @@
 package com.simpsonhistory.simpsonhistoryapplication;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -10,17 +11,23 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.Objects;
 
+import static android.content.pm.ActivityInfo.SCREEN_ORIENTATION_PORTRAIT;
+
 public class ScrollActivity extends AppCompatActivity {
 
     final private static int[] buildingButtonIDs = Buildings.buildingButtonIDs;
 
+    @SuppressLint("SourceLockedOrientationActivity")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+
         setContentView(R.layout.activity_scroll);
         Objects.requireNonNull(getSupportActionBar()).setTitle(getString(R.string.scrollTitle));
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        this.setRequestedOrientation(SCREEN_ORIENTATION_PORTRAIT);
 
     }
 

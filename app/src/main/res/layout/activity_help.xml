@@ -6,9 +6,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="10dp"
-
     tools:layout_editor_absoluteY="8dp"
     tools:layout_editor_absoluteX="8dp">
+
+
+
 <LinearLayout
     android:orientation="vertical"
     android:layout_width="match_parent"
@@ -19,10 +21,11 @@
         android:id="@+id/helpPageTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="@font/abril_fatface"
         android:text="@string/help_page"
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="@color/colorPrimaryDark"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.284"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,13 +39,14 @@
 
     <TextView
         android:id="@+id/anyQuestionsText"
-        android:paddingTop="20dp"
         android:layout_width="match_parent"
-        android:textAlignment="center"
         android:layout_height="wrap_content"
-        android:textColor="@android:color/black"
+        android:fontFamily="@font/abril_fatface"
+        android:paddingTop="20dp"
         android:text="@string/anyQuestionsText"
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.284"
         app:layout_constraintStart_toStartOf="parent"
@@ -64,13 +68,14 @@
 
     <TextView
         android:id="@+id/anyErrorsText"
-        android:paddingTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:textColor="@android:color/black"
+        android:fontFamily="@font/abril_fatface"
+        android:paddingTop="20dp"
         android:text="@string/anyErrorsText"
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.284"
         app:layout_constraintStart_toStartOf="parent"
@@ -94,38 +99,95 @@
     <TextView
         android:id="@+id/buttonFunctionsText"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abril_fatface"
         android:paddingTop="20dp"
-        android:textAlignment="center"
-        android:layout_height="wrap_content"
-        android:textColor="@android:color/black"
         android:text="@string/buttons_on_this_application"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.284"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/buttonsExplanation"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
-        android:text="@string/buttonsExplanation"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.284"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
 
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal">
+        <ImageView
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_map_red_24dp"/>
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:gravity="center_vertical"
+            android:text="@string/mapButtonExplanation" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal">
+        <ImageView
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_view_list_black_24dp"/>
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:gravity="center_vertical"
+            android:text="@string/listButtonExplanation" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal">
+        <ImageView
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_info_red_24dp"/>
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:gravity="center_vertical"
+            android:text="@string/infoButtonExplanation" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal">
+        <ImageView
+            android:layout_height="100dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="100dp"
+            android:src="@drawable/ic_help_red_24dp"/>
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:gravity="center_vertical"
+            android:text="@string/helpButtonExplanation" />
+    </TableRow>
 
     <ImageView
         android:id="@+id/simpsonIowaHistoryImageInfo"
         android:layout_width="match_parent"
         android:layout_height="144dp"
         app:srcCompat="@drawable/iowa_history_center" />
+
 
 
 </LinearLayout>

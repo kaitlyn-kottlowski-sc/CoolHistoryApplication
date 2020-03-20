@@ -10,7 +10,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 class Buildings {
 
 
-    final static String[] buildingNames = {"Wallace Hall", "Mary Berry", "Carver Hall", "College Hall",
+    final static String[] buildingNames = {"Wallace Hall", "Mary Berry Hall", "Carver Hall", "College Hall",
             "Smith Memorial Chapel", "Hopper Gymnasium", "Cowles Fieldhouse and Carse Hall", "McNeill Hall", "Hillman Hall",
             "Blank Performing Arts Center", "Kent Campus Center", "Amy Robinson Music Center", "Pfieffer Dining and Great Hall",
             "Bill Buxton Stadium", "Dunn Library"};

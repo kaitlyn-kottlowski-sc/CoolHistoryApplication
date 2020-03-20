@@ -15,16 +15,17 @@ import android.widget.TextView;
 
 import java.util.Objects;
 
+import static android.content.pm.ActivityInfo.SCREEN_ORIENTATION_PORTRAIT;
+
 public class HistoryInfoActivity extends AppCompatActivity {
 
-    @SuppressLint("NewApi")
+    @SuppressLint("SourceLockedOrientationActivity")
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         Bundle b = getIntent().getExtras();
-
 
         assert b != null;
         if (!b.containsKey("image2"))
@@ -55,6 +56,8 @@ public class HistoryInfoActivity extends AppCompatActivity {
         String name = b.getString("name");
         Objects.requireNonNull(getSupportActionBar()).setTitle(name);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        this.setRequestedOrientation(SCREEN_ORIENTATION_PORTRAIT);
 
 
     }

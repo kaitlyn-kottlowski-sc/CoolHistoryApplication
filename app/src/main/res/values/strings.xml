@@ -30,7 +30,7 @@
     <string name="go_back_to_main_page">Go back to Main Page</string>
     <string name="back">Back</string>
     <string name="button">Button</string>
-    <string name="info_page_title">App Information</string>
+    <string name="info_page_title">Information Page</string>
     <string name="creators_of_this_app">Creators of this App</string>
     <string name="content">Kenzie Jeter, Levi Lefebure, Noah Nelson, Elliott Meyers, Laura Nielsen, Kenyon Draper, Aiden Ruble, Allie Tubbs, Simon Van Den Abbeele, Sienna Hancock, Kennedi Wright, Kyra Pastor, Abby Loecke, Nick Squires, Hannah Spencer, Rachel Miller</string>
     <string name="simpson_college_history_app">Simpson College History App</string>
@@ -218,13 +218,16 @@
     <string name="developmentTeam">Genevieve Block, Kaitlyn Kottlowski, and George Saucedo</string>
     <string name="areYouInterestedTitle">Interested in Attending Simpson College?</string>
     <string name="clickAdmissionLinkText">Click the link below to apply:</string>
-    <string name="appBroughtToYouByTest">This App was brought to you by the Iowa History Center at Simpson College.</string>
+    <string name="appSponsor">APP SPONSOR:\nSimpson College\'s Iowa History Center.</string>
     <string name="clickIowaHistorySimpsonText">Click the link below to learn more about how you can be involved in the IHC:</string>
     <string name="anyQuestionsText">Have any questions about the Iowa History Center or Simpson\'s History Department?</string>
     <string name="emailFriedricksText">Email Bill Friedricks: Bill.Friedricks@simpson.edu</string>
     <string name="emailSinclairText">Email Linda Sinclair:\n Linda.Sinclair@simpson.edu</string>
     <string name="anyErrorsText">Problems with the App?</string>
-    <string name="buttonsExplanation">Information Button: Go to the page that shows who helped create the application  Map Button: Go to a google map of Simpson College with location markers marking Simpson buildings. The google map will also display the user\'s location, if allowed. Once user clicks on a marker, user goes to historical page for that building.  List Button: Go to a list of Simpson College buildings. From there, user can click on a button to see historical information about said building.</string>
+    <string name="infoButtonExplanation">Information Button: Goes to the page that shows who helped create the application</string>
+    <string name="helpButtonExplanation">Help Button: Goes to the help page that contains contact info and functionality of main page buttons.</string>
+    <string name="mapButtonExplanation"> Map Button: Goes to a google map of Simpson College with location markers marking Simpson buildings. The google map will also display the user\'s location, if allowed. Once user clicks on a marker, user goes to historical page for that building.</string>
+    <string name="listButtonExplanation">List Button: Goes to a list of Simpson College buildings. From there, user can click on a button to see historical information about said building.</string>
     <string name="content_contributors">Content Contributors:</string>
     <string name="for_more_information_visit">For more information, visit</string>
 </resources>
