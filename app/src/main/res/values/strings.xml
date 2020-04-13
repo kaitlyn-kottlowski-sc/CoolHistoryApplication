@@ -1,7 +1,5 @@
 <resources>
     <string name="appName">Simpson College Tour</string>
-    <string name="sign_up_cap">SIGN UP</string>
-    <string name="log_in_cap">LOG IN</string>
     <string name="mapOfSimpsonCollegeCampus">Map of Simpson College</string>
     <string name="wallaceHall">Wallace Hall</string>
     <string name="mcneillHall">McNeill Hall</string>
@@ -24,12 +22,8 @@
     <string name="help_button">help_button</string>
     <string name="simpson_building_text">Simpson Buildings</string>
     <string name="title_activity_map">MapActivity</string>
-    <string name="pop_up_window_background">Pop up window background</string>
     <string name="go_to_simpson_college_campus_map">Go to Simpson College campus map</string>
-    <string name="go_to_map">Go to Map</string>
-    <string name="go_back_to_main_page">Go back to Main Page</string>
     <string name="back">Back</string>
-    <string name="button">Button</string>
     <string name="info_page_title">Information Page</string>
     <string name="creators_of_this_app">Creators of this App</string>
     <string name="content">Kenzie Jeter, Levi Lefebure, Noah Nelson, Elliott Meyers, Laura Nielsen, Kenyon Draper, Aiden Ruble, Allie Tubbs, Simon Van Den Abbeele, Sienna Hancock, Kennedi Wright, Kyra Pastor, Abby Loecke, Nick Squires, Hannah Spencer, Rachel Miller</string>
@@ -226,7 +220,7 @@
     <string name="anyErrorsText">Problems with the App?</string>
     <string name="infoButtonExplanation">Information Button: Goes to the page that shows who helped create the application</string>
     <string name="helpButtonExplanation">Help Button: Goes to the help page that contains contact info and functionality of main page buttons.</string>
-    <string name="mapButtonExplanation"> Map Button: Goes to a google map of Simpson College with location markers marking Simpson buildings. The google map will also display the user\'s location, if allowed. Once user clicks on a marker, user goes to historical page for that building.</string>
+    <string name="mapButtonExplanation"> Map Button: Goes to a map of Simpson College with location markers marking Simpson buildings. The map will also display the user\'s location, if allowed. Once user clicks on a marker, it will take user to building\'s history page.</string>
     <string name="listButtonExplanation">List Button: Goes to a list of Simpson College buildings. From there, user can click on a button to see historical information about said building.</string>
     <string name="content_contributors">Content Contributors:</string>
     <string name="for_more_information_visit">For more information, visit</string>

@@ -116,69 +116,79 @@
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="10dp"
+        android:layout_marginLeft="9dp"
         android:gravity="center_horizontal">
+
         <ImageView
-            android:layout_height="100dp"
             android:layout_width="100dp"
+            android:layout_height="150dp"
             android:layout_marginEnd="10dp"
-            android:src="@drawable/ic_map_red_24dp"/>
+            android:src="@drawable/ic_map_red_24dp" />
 
         <TextView
-            android:layout_width="140dp"
-            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:gravity="center_vertical"
-            android:text="@string/mapButtonExplanation" />
+            android:text="@string/mapButtonExplanation"
+            android:textSize="12sp" />
     </TableRow>
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="10dp"
+        android:layout_marginLeft="7dp"
         android:gravity="center_horizontal">
+
         <ImageView
-            android:layout_height="100dp"
             android:layout_width="100dp"
+            android:layout_height="110dp"
             android:layout_marginEnd="10dp"
-            android:src="@drawable/ic_view_list_black_24dp"/>
+            android:src="@drawable/ic_view_list_black_24dp" />
 
         <TextView
-            android:layout_width="140dp"
-            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:gravity="center_vertical"
-            android:text="@string/listButtonExplanation" />
+            android:text="@string/listButtonExplanation"
+            android:textSize="12sp" />
     </TableRow>
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         android:gravity="center_horizontal">
+
         <ImageView
-            android:layout_height="100dp"
             android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_marginEnd="10dp"
-            android:src="@drawable/ic_info_red_24dp"/>
+            android:src="@drawable/ic_info_red_24dp" />
 
         <TextView
-            android:layout_width="140dp"
-            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:gravity="center_vertical"
-            android:text="@string/infoButtonExplanation" />
+            android:text="@string/infoButtonExplanation"
+            android:textSize="12sp" />
     </TableRow>
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="10dp"
+        android:layout_marginLeft="10dp"
         android:gravity="center_horizontal">
+
         <ImageView
+            android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginEnd="10dp"
-            android:layout_width="100dp"
-            android:src="@drawable/ic_help_red_24dp"/>
+            android:src="@drawable/ic_help_red_24dp" />
 
         <TextView
-            android:layout_width="140dp"
-            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:gravity="center_vertical"
+            android:textSize="12sp"
             android:text="@string/helpButtonExplanation" />
     </TableRow>
 
