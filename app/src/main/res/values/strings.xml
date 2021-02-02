@@ -40,153 +40,326 @@
     <a href= "https://simpson.edu/internal/bill-buxton-stadium">https://simpson.edu/internal/bill-buxton-stadium </a>
     </string>
     <string name="billBuxtonAuthor">By: Kenyon Draper</string>
-    <string name="billBuxtonHistory">\n   In 1998, the Simpson College football stadium was named Buxton Stadium in honor of William Buxton.
-        The Buxton family had four generations of Simpson board members and have long resided in Warren County as financiers and farmers.\n\n
-        The stadium hosts school sponsored sports like football, soccer, and track. It is also home to intramural competitions for Simpson students.
-        The football field has undergone several renovations to become what it is today and boasts a state-of-the-art turf field.</string>
+    <string name="billBuxtonHistory">\n\n\t\t\tIn 1998 the Simpson College football stadium was named Buxton Stadium in honor of William Buxton.
+        The Buxton family had four generations of Simpson board members and have long resided in Warren County as financiers and farmers.
+        They donated the land for Buxton Park, and have given money towards various projects on campus. Buxton Stadium has been in the same
+        area since the 1950s but has received many renovations over the year, with many of these renovations taking place in 2010. The stadium
+        hosts school-sponsored sports like football, soccer, and track. It is also home, however, to intramural competitions for Simpson students.
+        The football field is located just south of the Kent Center and Cowles gymnasium.
+        \n\n\t\t\tBuxton Field was one of the first fields in Iowa to upgrade to synthetic grass in 2001. In 2011, it was upgraded to a more state-of-the-art
+        turf. The turf is managed and receives upkeep on a regular basis to keep it the best in the American Rivers Conference. It is also used as a
+        practice field for fall sports like soccer and football. Occasionally Indianola Public Schools utilize the field or track for sporting events
+        and activities. The multipurpose field is one of Simpson’s best additions to the collegiate experience.
+        \n\n\t\t\tAn eight-lane track surrounds the football field, which was updated in 2011 by the company Beynon that also poured the University of Iowa’s
+        track in the previous year. The track is a full-pour ten-millimeter surface. The track and cross-country teams utilize the track during their
+        respective seasons. Buxton Stadium is the home of the Kip Janvrin Open, one of the largest outdoor track meets in the Midwest, boasting all NCAA
+        divisions. The meet was renamed in 2006 in honor of the Olympic Decathlete, who graduated from Simpson in 1988.
+        \n\n\t\t\tThe outside of the stadium was improved in 2010. There are two entrances composed of brick ticket booths and iron fencing surrounding
+        the entirety of the stadium.  At the south entrance, there is an arch that has the Simpson College logo engraved.
+    </string>
     <string name="linkToCarver">
     <a href= "https://simpson.edu/internal/carver-science-center">https://simpson.edu/internal/carver-science-center </a>
     </string>
-    <string name="carverHistory">\n\n   The Carver Science Center was built in October of 1956, named after George Washington Carver, one of Simpson’s
-        most famous alumni. Being the primary science center on campus, the building is home to Simpson’s Mathematics, Computer Science, Biology,
-        Environmental Science, Chemistry, and Physics Departments. The science hall is filled with chemistry, biology, and computer labs, all of
-        which have been freshly renovated. Carver Science Center is also home to Simpson’s largest classroom: Jordan Lecture Hall, which seats 120
-        students, an excellent testament to Simpson’s small classes and personalized education values.\n\n   Within the walls of Carver Science Hall,
-        there are also numerous bone and taxidermied animal displays. These gifts to the college are an excellent representation of Simpson’s partnerships
-        and connections with the Des Moines area and Iowa businesses.</string>
+    <string name="carverHistory">\n\n\t\t\tThe Carver Science Center was built in October of 1956, named after George Washington Carver. George Washington Carver
+        studied Art and Piano at Simpson and is considered one of Simpson’s most famous students. Housed in the Carver Atrium since 1991, is a plaster statue
+        of Carver as a young man, which went on to be used as the model to cast the bronze sculpture, “The Boy Carver,” located at the George Washington Carver
+        National Monument in Missouri. This sculpture represents the potential and dreams of the son of a slave who went on to become a world-famous agricultural
+        expert. Simpson was the first college to admit George Washington Carver, and Simpson continues to embrace that spirit today by providing all students with
+        a dream and a willingness to work towards those dreams. For this reason, Carver Science Center found its namesake.
+        \n\n\t\t\tBeing the primary science center on campus, the building is home to Simpson’s Mathematics, Computer Science, Biology, Environmental Science, Chemistry,
+        and Physics Departments. The science hall is filled with chemistry, biology, and computer labs, all of which have been freshly renovated and include advanced
+        technology such as an atomic force microscope. There is even a human cadaver lab in the basement of Carver Science Hall for upper level biology students to
+        utilize and gain integral experience and insights that are unique on a small campus like Simpson’s. Carver Science Center is also home to Simpson’s largest
+        classroom: Jordan Lecture Hall. This classroom seats 120 students, which is an excellent testament to Simpson’s small classes and personalized education values.
+        Various departments will often utilize Jordan Lecture Hall as a location for campus lectures on different areas of research or education.
+        \n\n\t\t\tWithin the walls of Carver Science Hall, there are also numerous bone and taxidermied animal displays. One of particular note is “DJ the Giraffe” on the East
+        side of the second floor. DJ was a gift from the Blank Park Zoo and a couple of Simpson faculty members got to be a part of the process of preparing and installing
+        the skeleton at Simpson. Almost a dozen other specimens of rare and endangered species adorn the walls. These were a kind gift of the Townsend family through Simpson’s
+        partnership with the Great Ape Trust in Des Moines. The story of DJ and other gifts to the college are an excellent representation of Simpson’s partnerships and
+        connections with Des Moines area and Iowa businesses. Carver Science Center has not always looked like it does today. In 1993 it underwent a massive remodeling project.
+        This nine-million-dollar renovation and expansion project included the addition of the Carver atrium, Jordan Lecture Hall, and various labs. In the past five years,
+        classrooms and labs have also been receiving renovations. In Summer 2017, the Biology lab on the first floor received the addition of state-of-the-art presentation
+        technology and six laboratory pods where students can work as teams to collaborate on research projects. The rest of the first-floor classrooms and labs were also
+        renovated in Summer 2019.
+    </string>
     <string name="carverAuthor">By: Laura Nielsen</string>
     <string name="linkToBpac">
     <a href= "https://simpson.edu/internal/blank-performing-arts-center">https://simpson.edu/internal/blank-performing-arts-center </a>
     </string>
-    <string name="bpacHistory">\n\n   The Blank Performance Arts Center or BPAC, as it is commonly called, is located on the western side of campus.
-        The building was built in 1971 as a home for the Theater Arts Department and has since become an integral part of Simpson’s culture. It was
-        named for Dr. A.H. and Mrs. Anna Blank who contributed financially to the project.\n\n   In 2011, Graham Construction and SVPA Architects
-        renovated the building whilst adding key offices, classrooms and a luxurious entry. Today, the center is used for a variety of purposes including,
-        classrooms and meetings, along with hosting productions. The center houses many of Simpson’s own productions and also Des Moines Metropolitan Opera productions.</string>
+    <string name="bpacHistory">\n\n\t\t\tThe Blank Performance Arts Center (BPAC) is located on the western side of campus. The building was built in 1971 costing $1,246,048.
+        The building became home to the Theater Arts Department with the eventual goal of housing the arts and music departments as well. Although this did not occur, BPAC
+        has since become an integral part of Simpson’s culture. It was named for Dr. A.H. and his wife, Mrs. Anna Blank, who were philanthropists from Des Moines. The Blanks
+        also contributed to the Children’s Hospital in Des Moines and, in 1963, to the Blank Park Zoo.
+        \n\n\t\t\tThe Blank Performance Arts Center holds the Harold and Nellaby Pote and Barnum Studio Theaters. The Pote Theater has a seating capacity of 467, while Barnum’s is
+        125. These theaters stage productions created and directed by Simpson students in addition to Des Moines Metropolitan Opera (DMMO) productions throughout the year.
+        The building also holds offices for the theater department staff and faculty members as well as a number of classrooms.
+        \n\n\t\t\t The Des Moines Metro Opera started in 1973 and has since put on 145 productions of 80 operas including Mozart’s The Magic Flute, Sondheim’s Sweeney Todd and
+        Verdi’s Macbeth. Thus, BPAC has become a cultural center for both campus and Central Iowa at large. DMMO completed their 47th annual festival season in July 2019 and
+        their partnership with Simpson remains unwavering.
+        \n\n\t\t\tIn 2011, Graham Construction and SVPA Architects, both of Des Moines, renovated the building adding key offices, classrooms and a luxurious entry. Inside
+        and out the building was given modern touches. The classrooms were made more spacious with great views and plentiful natural lighting. All of these improvements
+        were made possible by community donations. The entire project cost roughly 6 million dollars. Key donors are recognized on a large plaque inside the facility,
+        some inscriptions throughout the building offer individual summaries. The number of donations from Simpson graduates and faculty show how special the Simpson College campus is.
+    </string>
     <string name="bpacAuthor">By: Aiden Ruble</string>
     <string name="linkToAmy">
         <a href="https://simpson.edu/internal/amy-robertson-music-center">https://simpson.edu/internal/amy-robertson-music-center</a>
     </string>
-    <string name="amyHistoryPart1">\n   The Amy Robertson Music Center was named after Class of 1921 Alumnus, Amy Robertson, who donated $600,000 of the $1.8 million essential
-        for construction. Robertson graduated with a Bachelor’s in Music and was the seventh woman appointed to the Simpson Board of Trustees. Housed in the Amy Robertson Center
-        is Simpson’s music department which originated as a Music Conservatory. While most colleges offer a Bachelor of Arts degree, Simpson has the unique ability to provide
-        a Bachelor of Music degree.\n </string>
-    <string name="amyHistoryPart2">\n   The Bachelor of Music program offers a more rigorous and diverse curriculum that musicians would normally receive at a Conservatory while
-        also exposing students to a Liberal Arts Education. Construction on the southeast part of campus began on October 23, 1981 and the building was dedicated in May of 1983. The building houses
-        the Lekburg Recital Hall, James W. Helen Wallace Commons, Anna Hubbell Light Court, an instrumental music center, and dozens of practice rooms.</string>
+    <string name="amyHistoryPart1">\n\n\t\t\tThe Amy Robertson Music Center was named after Class of 1921 Alumna, Amy Robertson, who donated $600,000 of the $1.8 million essential for the center`s
+        construction. Robertson graduated with a Bachelor’s in Music and was the seventh woman appointed to the Simpson Board of Trustees. Housed in the Amy Robertson Center is Simpson’s
+        music department which originated as a Music Conservatory. While most colleges offer a Bachelor of Arts degree, Simpson has the unique ability to provide a Bachelor of Music degree.
+        The Bachelor of Music program offers a more rigorous and diverse curriculum that musicians would normally receive at a Conservatory while also exposing students to a Liberal Arts Education.
+    \n\n\t\t\tThe Music Conservatory was founded in 1891 with Frank Ellis Barrows as Director. Originally, the conservatory served 40 students in two rooms in the Wallace Hall
+        of Science. The conservatory quickly tripled in size. Due to lack of space, music students were taught in Mary Berry, Smith Chapel, and rented houses around campus. In 1902, the Music Conservatory,
+        later renamed Barrows Hall, was finally built on the northeast side of campus. The Music Annex for instrumental students was completed in 1950.</string>
+    <string name="amyHistoryPart2">
+    \n\n\t\t\tLekberg was succeeded as Music Director by Robert Larsen. Furthering Simpson’s emphasis of opera, Larsen co-founded
+    the Des Moines Metro Opera in 1973 which fosters incredible work and educational experiences for Simpson students. Larsen spear-headed the fundraiser
+    for the construction of a new music center at Simpson in the 1980s. The architectural firm of Brooks, Borg, and Skiles of Des Moines designed the building,
+    and construction on the southeast part of the campus began on October 23, 1981. The dedication of the music center lasted from May 17 to May 21, 1983, and
+    students were overjoyed with the ceremonies where nationally-known composers wrote special works for the Simpson College Choir, Madrigal Singers, Simpson
+    College Symphonic Wind Ensemble, and alumni choir to perform.
+        \n\n\t\t\tA $1 million addition, Salisbury Hall, was completed in the spring of 1997. Salisbury Hall
+    includes a choral rehearsal hall, large classroom, and teaching studios. The Amy Robertson Center covers over 19,000 square feet and contains the 250-seat
+    Lekberg Recital Hall. The building also houses the James W. Helen Wallace Commons, Anna Hubbell Light Court, an instrumental music center, and dozens of
+    practice rooms. The Amy Robertson Music Center has supported a music program renowned for its success in the Midwest by nurturing eight ensembles, two
+    fully-staged undergraduate operas annually, and promoting almost one-hundred percent placement into graduate schools.</string>
     <string name="amyAuthor">By: Allie Tubbs</string>
     <string name="linkToCollege">
         <a href="https://simpson.edu/internal/college-hall">https://simpson.edu/internal/college-hall </a>
     </string>
-    <string name="collegeHistory">\n   College Hall’s construction was completed in 1870, where it was home to the College’s classes. At this time,
-        it concurrently served as the school’s chapel. Over the years, the building’s uses have shifted. It no longer has any classes or the chapel,
-        but instead holds the Admissions and Financial Aid offices and the Mathew Simpson room, which gets its name from the school’s first minister
-        and Founder.\n\n   College Hall is also the location where a girl named Mildred fell to her death after tripping over her dress following a class
-        she had on the third floor in 1935. Some believe her spirit still resides within the building.</string>
+    <string name="collegeHistory">\n\n\t\t\tCollege Hall is perhaps one of the most well-known buildings on the Simpson campus. Located in the middle of the campus, the building sees a lot of foot traffic,
+        as well as being a key part of the college’s storied history. College Hall is currently the longest-standing building on campus. The construction of the building was completed in 1870, ten
+        years after the opening of the campus and has remained a vital part of the campus since then. Upon its establishment, it was used for nearly everything. It held classrooms and functioned
+        as the school’s chapel.
+        \n\n\t\t\tThe building`s most recent major remodel took place in the late 1900s and was finished in 1986. Currently, it houses a variety of different purposes. College Hall is home to the Admissions
+        Department and is the first building that potential future students get to see on their campus tour. The building is also home to numerous rooms for events including the Red and Gold room and
+        the Matthew Simpson room, named after the Founder of the college. The building is also home to the Office of Financial Assistance, where students can go if they need help with any payment or billing.
+        \n\n\t\t\tOne of the more fun traditions the building hosts is for incoming freshmen during their first few days on campus. To mark the start of their journey through Simpson, the new class sits in front
+        of College hall next to the official seal of the college and listens to speakers describing what their time at Simpson will be like. The end of this ceremony is marked by all of the students passing
+        through the gateway in front of the building, symbolizing the start of their journey as students. On the other hand, the building houses some scary stories as well. One of the most well-known is the
+        story of the death of Millie. Millie was a girl who attended the college in its early years. The story says that she was on the top floor of the building and tripped over the end of her long dress.
+        This resulted in her falling three stories to her untimely death. Many students and workers say that Millie’s presence can still be felt in the building today. College Hall holds a pivotal spot in Simpson’s history.
+    </string>
     <string name="collegeAuthor">By: Simon Van Den Abbeele</string>
     <string name="linkToMary">
         <a href="https://simpson.edu/internal/mary-berry-hall">https://simpson.edu/internal/mary-berry-hall </a>
     </string>
-    <string name="maryHistoryPart1">\n   Mary Berry Hall, originally named Ladies Hall, was built in 1891 and served as the female dormitory until 1967.
-        Mary Berry Hall is named after the daughter of former Simpson President Thomas S. Berry. Mary, while attending Simpson, died due to complications
-        after a surgery for appendicitis. She left half of her estate to the college, which came to a total of $3,622.12 in 1902 which translates to
-        $105,760.36 in 2019 dollars.\n</string>
-    <string name="maryHistoryPart2">\n   Currently, Mary Berry Hall is the home for the English, History, Philosophy, Political Science, Psychology,
-        Religion and World Language Departments. The building features a variety of classrooms and offices for professors. Mary Berry Hall is also
-        the home of the Farnham Art Gallery and the Iowa History Center.</string>
+    <string name="maryHistoryPart1">\n\n\t\t\tMary Berry Hall, previously known as Ladies Hall, was opened in 1891. At that time, Ladies Hall was the first residence hall on
+        Simpson Campus featuring a dining hall and rooms for 64 female Simpson students and one matron. A decade prior to the opening of Ladies Hall, the president of
+        Simpson was Thomas S. Berry who served from 1878-1880 before dying in office from a hereditary disease. During his service, President Berry is credited with
+        saving Simpson College from financial difficulties. As the enrollment dwindled, President Berry was able to raise the necessary amount of money to preserve
+        Simpson and its future. At the time of his death, his daughter Mary was only three years old. Shortly after, Mary’s mother also died leaving her to live with
+        her aunt and uncle. Despite these setbacks, Mary grew up and attended Simpson College. While at Simpson, Mary was a member of the Tri-Delta sorority and was
+        well-liked by her classmates. In January 1902, Mary suddenly passed away due to complications after surgery for appendicitis. After her death, the campus was
+        in grief due to the loss of such a prosperous and respected student. Mary would leave half of her estate to Simpson College towards the purchase of scientific
+        equipment. Her donation, along with some contribution from her sister, came to a total of $3,622.12 in 1902 which translates to $105,760.36 in 2019 dollars.
+        While Ladies Hall was being renovated during 1908, the decision was made to rename the residence hall after the former student.
+    </string>
+    <string name="maryHistoryPart2">\n\n\t\t\tMary Berry Hall served as the dormitory for female students for nearly 75 years before female housing was moved to Kresge Residential
+        Hall in 1967. Since then, Mary Berry Hall has been the residence for English, History, Philosophy, Political Science, Psychology, Religion, and World Language
+        Departments. As a result, a variety of courses are conducted on the first floor of the building. The three floors of Mary Berry also feature a variety of offices
+        for professors of the previously listed departments. Each department is divided into a separate wing in Mary Berry making it easier for professors to collaborate.
+        \n\n\t\t\tIn addition to the offices and classrooms, Mary Berry Hall is home to a number of programs. The Farnham Art Gallery resides on the third floor. The Farnham Art
+        Gallery displays a variety of work, ranging from the art of Simpson students to traveling exhibits. The first floor of Mary Berry Hall is the home of the Iowa History
+        Center. The Iowa History Center is a program centered on the understanding and promotion of the history of Iowa. This program extends beyond Simpson and provides
+        opportunities for students and the general public statewide.
+    </string>
     <string name="maryAuthor">By: Noah Nelsen</string>
     <string name="linkToMcNeill">
-        <a href="https://simpson.edu/internal/mcneill-hall">https://simpson.edu/internal/mcneill-hall </a>
+        <a href="https://simpson.edu/internal/mcneill-hall">https://simpson.edu/internal/mcneill-hall</a>
     </string>
-    <string name="mcneillHistory">\n\n   The Henry H. and Thomas H. McNeill Business and Computer Science Center was built in 1985. Simpson College
-        was given a generous donation of almost 2 million dollars by Lettie Judkins McNeill, who was a graduate of the class of 1927. The building was
-        named after her late husband, Henry, and his twin brother, Thomas. This building is home to computer science programs, economics, and business.
-        \n\n   In 2012, a beautiful addition was added to the front of McNeill called McNeill Plaza. This new addition cost around $75,000 but really
-        helped to make McNeill Hall one of the most beautiful sites on campus. </string>
+    <string name="mcneillHistory">\n\n\t\t\tDuring the 1980s, computer science was just starting to gain popularity. Very few colleges offered programs pertaining to this field,
+        including Simpson College. President Robert McBride (1979-1987) noticed that Simpson was falling behind when compared to other schools in the area. Simpson did not
+        have a building to house a new computer science major or the necessary types of equipment. More and more students who came to Simpson were interested in the computer
+        science field, but there was no program in existence at that point. President McBride recognized this issue and began to work toward finding a way to fund such a building.
+        \n\n\t\t\tPresident McBride was introduced to Lettie Judkins McNeill through a mutual friend. She was a graduate of the Simpson College business department in 1927. She went on
+        to marry a wealthy real estate agent from Chicago. President McBride and other members of the board made a plan to ask her for a generous donation, but before he could even
+        do so, she suggested the idea. In 1982, Lettie McNeill came to Simpson for a visit and decided to donate to the college. Her donation equaled around $910,000. She also sold
+        Simpson College properties in Chicago that ended up selling for close to $900,000. President McBride was extremely thrilled about this because it meant that Simpson College
+        could have a home to begin their new computer science major.
+        \n\n\t\t\tAfter the donation was made, President McBride had to decide where the best place for the new building would be. Another goal around this time was to make Hillman Hall
+        handicap accessible on the upper floors, so the decision was made to connect the new building to Hillman Hall. This way, there could be an elevator connecting both buildings.
+        President McBride knew this would be a very expensive remodel. The architectural company, Savage and Vander Ploeg, determined the building would cost around $2,400,000.
+        \n\n\t\t\tThe building plans were finished in 1984 and construction began in June of that year. The official builder for the new hall was Downing Construction, who was located
+        in Indianola. This new building was around 19,000 square feet with many modern touches. There were tiered classrooms and large conference rooms. Also included was the outstanding
+        new computer lab and computer system. At this point, the new building did not have a name, but in 1985, the building officially became known as the Henry H. and Thomas H.
+        McNeill Business and Computer Science Center. Henry H. McNeill was Lettie’s husband who had recently passed away and Thomas H. was his twin brother.
+        \n\n\t\t\tWithout Lettie McNeill’s plentiful donation to Simpson College, this iconic building would never have gotten built. Because of her, Simpson College finally got the computer
+        science program it dreamt of and a beautiful new building that still stands today. McNeill Hall is still one of the most beautiful buildings on campus and is used for computer
+        science, business, and economics. The lower level also houses the business management department’s faculty offices and the IT office. In 2012, a $75,000 addition was made to
+        McNeill Hall that is known as McNeill Plaza. This final addition really helped to tie Hillman Hall and McNeill Hall together and added to the beauty that is Simpson College.
+ </string>
     <string name="mcneillAuthor">By: Sienna Hancock</string>
     <string name="linkToPfieffer">
         <a href="https://simpson.edu/internal/pfieffer-dining-hall-and-great-hall">https://simpson.edu/internal/pfieffer-dining-hall-and-great-hall </a>
     </string>
-    <string name="pfiefferHistory">\n\n   Pfeiffer Dining Hall and the Great Hall were built in 1954 and dedicated in 1955.
-        Named after Gustavus A. Pfeiffer, this building was created to house the dining center for campus as well as a
-        multi-purpose room and was initially referred to as a student union. The cost of building this two-story student union
-        was approximately $265,000. The building was renovated in 1973, 1976, following the outbreak of a fire, and finally in
-        2001.\n\n   Great Hall has served as a student lounge for dances, convocations, lectures, recitals, concerts and banquets,
-        while Pfeiffer continues to house the food buffet open to students during mealtimes.</string>
+    <string name="pfiefferHistory">\n\n\t\t\tPfeiffer Dining Hall and the Great Hall were built in 1954 and dedicated in 1955. Named after Gustavus Adolfus Pfeiffer, this building
+        was created to house the dining center for campus as well as a multi-purpose room and was initially referred to as a student union. The cost of building this two-story
+        student union was approximately $265,000. By the 1970’s, Pfeiffer’s facilities were considered inadequate by many students and the culinary team was unable to keep up
+        with the rising enrollment numbers. As a result, during the Summer of 1973 Pfeiffer went through a full renovation in an effort to modernize and expand to the existing
+        dining hall. The renovation included a remodeling of the kitchens, bathrooms and tripled the coatroom. Food Preparation expanded to 450 sq. ft. and new entrances were
+        added in the Southwest corner of the building. The renovation also reworked service patterns to avoid congestion and fixed a huge complaint of students which was the
+        lack of hot food available during dining hours. The total cost for the renovation was around $400,000. What was notably left out of the renovation was an increase in
+        the seating capacity, which meant that lines still would extend outside of the building on occasion. Pfeiffer went through another full renovation in 2001, again to
+        modernize, finally expand seating for the students, and bring the building to where it is today.
+        \n\n\t\t\tAbove Pfeiffer, Great Hall was also a very popular place around campus. This room served as a student lounge for dances, convocations, lectures, recitals,
+        concerts and banquets. Off the south side there was also a sun deck which was directly overtop the Pfeiffer kitchen. On October 18, 1975, a fire broke out
+        which engulfed the building in flames. It is theorized that the cause of the fire was a cigarette that was left on a couch during a dance held the night
+        before. Around 12:30 am, students claimed to smell smoke, but a search for a fire turned up nothing. The next day food service employees first noticed a
+        reflection of flames through the Kresge windows. The total cost for the damages was around $200,000. Of the items destroyed in the fire were a grand piano
+        and $40,000 worth of furniture. It took until February 1976 for plans of a full remodel to be completed. The architects wanted to ensure that the room still
+        had a raw wood interior, and therefore they needed to sandblast some of the burnt timber in the room. It was during this renovation that a spiral staircase was added
+        to the building to bring it up to building codes of the day.
+        \n\n\t\t\tPfeiffer Hall continues to house the food buffet for students and faculty while Great Hall houses campus events.
+    </string>
     <string name="pfiefferAuthor">By: Elliott Meyers</string>
     <string name="linkToSmith">
         <a href="https://simpson.edu/internal/smith-memorial-chapel">https://simpson.edu/internal/smith-memorial-chapel </a>
     </string>
-    <string name="smithHistory">\n\n   The Smith Chapel is the focal point for all religious activities on Simpson College’s
-        campus. The idea of Smith Chapel started in the early days of Dr. Kersetter’s time as president in 1953. Kresetter
-        found donors for the project, Alida and David O. Smith. The architect Arland Dirlam made construction plans, but
-        the Smiths not satisfied, sought something different. Another donor, Robert A. MacBain, left Simpson $425,000 upon
-        his death. The Smiths compromised on plans; construction thus began.\n\n   The dedication in October of 1968 of the
-        Smith Memorial Chapel marked the culmination of one of the longest building projects in the history of the college.
-        After years, David O. Smith and his sister Alida Smith were finally able to dedicate the chapel in memory of their
-        parents, Mrs. Annie Catherine Smith and Henry Gardner Smith. The chapel contains a mobile pipe organ, one of seven
-        in the world, that can be played through the carillon in the bell tower and provide music for the entire campus.
-        The Smith Chapel is used for interfaith campus worship, Madrigal Choir concerts and Honors Convocation among other events.</string>
+    <string name="smithHistory">\n\n\t\t\tThe Smith Chapel is the focal point for all religious activities on Simpson College’s campus. Smith Chapel offers a symbolic
+        reminder of the importance of religion and spiritual experience. The Smith Chapel supports the mission of Simpson College as a church-related institute of
+        higher education that values individuality within a creative and diverse community. The idea of Smith Chapel started in the early days of Dr. Kersetter’s
+        time as president in 1953. Although the Methodist church was a few blocks away, Kresetter wanted something that was located on the college campus. Up until
+        this point, students were required to attend chapel several days a week. Chapel services were held at the Methodist church or second floor of College Hall.
+        \n\n\t\t\tKresetter found donors for the project, Alida and David O. Smith. The Smiths insisted that the chapel be built according to their plans. Richard Neutra
+        was the architect originally assigned. Neutra’s initial sketches displeased the Smiths because they were too modern and bold. The Smith’s wanted a traditional
+        church architecture. Neutra was removed from the project in 1960 and Arland Dirlam came on. He made traditional plans, but the Smiths were still not satisfied.
+        Their demands were unreasonable and too expensive. The Smith Chapel became a low priority by 1963 and there was resistance to the construction on campus. There
+        was another donor, Robert A. MacBain, who left Simpson $425,000 at his death. Around $300,000 of his legacy was contributed to the chapel, alongside the Smiths
+        $250,000. The Smiths finally conceded and compromised on plans; construction thus began. The dedication of the Smith Memorial Chapel marked the culmination of
+        one of the longest building projects in the history of the college. After years, David O. Smith and his sister Alida Smith were finally able to dedicate the
+        chapel in memory of their parents, Mrs. Annie Catherine Smith and Henry Gardner Smith.
+        \n\n\t\t\tSmith Chapel was built facing west into the campus, toward Hillman Hall and backing up to Buxton street. The chapel was dedicated on Sunday, October 27, 1968,
+        by Bishop James Thomas Jr. of the United Methodist Church, Rabbi Goldberg representing the Jewish community, and Bishop Morris Dingman representing the Catholic
+        community. The Smith Chapel has dark exterior brick, modern stained-glass windows, and an 80-foot tower. The tower bell has an electronically amplified carillon
+        with 150 tuned Flemish bells. The north chapel window contains many religious elements: the star and crescent of Islam, lotus of Hinduism and Buddhism, Yin and Yang
+        of Shintoism, and totem animals of primitive religions. The chapel can seat 470 people, including 50 seats on the balcony. The chapel contains a mobile pipe organ,
+        one of seven in the world, that can be played through the carillon in the bell tower and provide music for the entire campus. Smith Chapel allows everyone to practice
+        their beliefs. It is Methodist-related, yet non-sectarian in spirit and program. The Smith Chapel is used for campus worship, Madrigal Choir concerts, and Honors
+        Convocation among other events. The Dirlam Lounge is used for small-group discussions and meetings. It also holds Holy Grounds, the campus coffee shop. Smith Chapel
+        is also equipped with several classrooms and a music lab on the lower level.
+    </string>
     <string name="smithAuthor">By: Kennedi Wright</string>
     <string name="linkToCowles">
         <a href="https://simpson.edu/internal/cowles-fieldhouse-and-carse-hall">https://simpson.edu/internal/cowles-fieldhouse-and-carse-hall </a>
     </string>
-    <string name="cowlesHistory">\n  Carse Hall and Cowles Fieldhouse are Simpson College’s primary locations for athletics.
-        Carse comprises the hall that connects the Kent Campus Center to both Hopper Gymnasium and the Cowles Fieldhouse.
-        Cowles Fieldhouse was built in the mid-1970s and was named after the Cowles Foundation.\n\n  The Carse building was
-        constructed when Kent Campus Center was and houses the weight, fitness, and wrestling rooms, two racquetball courts,
-        and a dance studio. Cowles Fieldhouse is home to an indoor running facility, and the court used by our basketball and
-        volleyball teams. The size of the gym also lends itself to use for large events, such as graduation, on campus. The
-        location of these buildings near the center of campus set them up to make it easy for students to attend home games
-        and utilize the state-of-the-art facilities that they house.
+    <string name="cowlesHistory">\n\n\t\t\tCarse Hall and Cowles Fieldhouse are Simpson College’s primary locations for athletics. Carse comprises the
+        hall that connects the Kent Campus Center to both the Hopper Gymnasium and the Cowles Fieldhouse. The Cowles Fieldhouse is downstairs
+        from Carse and holds the gymnasium Simpson uses today. Cowles Fieldhouse was built in the mid-1970s and was named after the Cowles Foundation.
+        Gardner Cowles was a Des Moines newspaper owner who created the Cowles Foundation, which gave the money to construct the athletic facilities.
+        \n\n\t\t\tThe Carse building is the main athletic building of Simpson College. Carse houses Cowles Fieldhouse, Steven Johnson Fitness Center, and
+        Hopper Gym. The Carse building has gone through a lot of changes as it has been remodeled and updated to stay up to date to the wants and needs
+        of the Simpson College community. The Carse building used to house a six-lane swimming pool until it was remodeled into the weight, fitness, and
+        wrestling rooms, two racquetball courts, and a dance studio. These new rooms are used by students, faculty, alumni, and people of the Indianola
+        community. The building was also remodeled to house classrooms, conference rooms, offices for athletic staff, health, and exercise science professors.
+        Classes typically taught are health and exercise science courses, and sports teams also utilize the classrooms to watch film and discuss games.
+        \n\n\t\t\tCowles Fieldhouse, housed in the lower part of the athletic building, is the main gym for indoor sporting events like volleyball and basketball
+        along with Simpson College’s variety of intramurals. Cowles Fieldhouse was renovated in 1998 when an indoor running facility was installed that has
+        the capacity to fit up to three thousand people. Major events happen in Cowles Fieldhouse such as graduation and “Yell Like Hell,” which is one of
+        Simpson’s homecoming traditions. A wooden floor was installed over the linoleum flooring in 2012 for athletic practices and events. Simpson College’s
+        basketball and volleyball teams use the wooden floor during their seasons. Other Simpson College sports like baseball, softball and track use the gym
+        to train during their off-seasons. People can watch videos on the LED video display board that was added to the building in 2013. People in the hallways
+        of Carse can watch the athletic events on benches due to the windows that look down into the Cowles Fieldhouse. Carse and Cowles Fieldhouse are vital
+        parts which house the heart and soul of Simpson College’s athletic and fitness facilities which bring the Simpson community together to cheer on the Simpson Storm.
 </string>
     <string name="cowlesAuthor">By: Kyra Pastor</string>
     <string name="linkToWallace">
         <a href="https://simpson.edu/internal/wallace-hall"> https://simpson.edu/internal/wallace-hall </a>
     </string>
-    <string name="wallaceHistory">\n  Originally housing music, laboratories, a library, and an art studio, Wallace Hall
-        is now home to the Education and Sociology Departments. Dedicated in 1889 as Science Hall, the building looked
-        much like it does today in the tall and box-like shape, with a skylight in the original. This building shows
-        the support of the community because it was originally built with bricks donated by a local businessman,
-        J. H. Carruthers. However, between 1889 and now, it underwent renovations in 1965 and again in 1996. The 1965
-        renovations completely restored the state of Wallace Hall after it had fallen into disrepair.\n\n  Wallace Hall is
-        named after Henry A. Wallace, former Vice President of the United States, husband of a Simpson alumna and brother
-        to a Simpson Board of Trustees member. As of 1991, Wallace Hall also holds a place on the National Register of Historical Places. </string>
+    <string name="wallaceHistory">\n\n\t\t\tHaving undergone two renovations, one name change, and several different departments and classes, Wallace Hall claims a unique and
+        lengthy history. Planning for Science Hall, the original name of Wallace Hall, began in 1886. Willis Proudfoot, an architect out of Arkansas was called in. A
+        generous donation by J. H. Carruthers, the owner of Warren County Coal Brick and Tile, ensured the brick for whatever plans Proudfoot drew up. He guaranteed the
+        brick in exchange for a $3,000 loan from the college’s endowment. Dr. Joe Walt, in Beneath the Whispering Maples, deemed the style of the architecture ``eclectic``
+        with the pitched roof and skylight. The four floors make it one of the taller buildings on campus. Similar to the classes held in Wallace Hall today, there was much
+        variety. Music rooms, student and private laboratories, storage, a library room, classrooms, and an art studio were all present. The total cost of Science Hall
+        rounded out to $14,000 by the completion in December of 1888. Unfortunately, right before its completion, a student fell through some boards on the second floor
+        and died of his injuries. Dedication of Science Hall took place in June of 1889.
+        \n\n\t\t\tBy 1965, an extra flow of federal funding and the crumbling state of Science Hall prompted Simpson College Board’s Executive Committee to announce possible
+        renovations. Kenneth Brown’s engineers determined the building to be “built like a battleship” and so it was renovated instead of torn down. The intended purpose
+        for classes had transformed into “facilities for physics, mathematics, and geology.” The cost this time amounted to $300,000. In 1967, Science Hall was renamed
+        Wallace Hall in honor of Henry A. Wallace, Vice President of the United States and a geneticist. His connection to Simpson comes through his wife, Ilo Brown, being
+        an alumna and his brother, James Wallace holding membership on the Simpson College board of trustees at the time of the rededication. In 1991, it was named to
+        the National Register of Historic Places and in 1996 saw another renovation making it much closer to what we see today.
+        \n\n\t\t\tToday, Wallace Hall houses the departments of Education and Sociology. The second and top floors are home to large classrooms, while the department offices are
+        on the first and third floors with other smaller classrooms and a computer lab occupying the other space.
+    </string>
     <string name="wallaceAuthor">By: Abby Loecke</string>
     <string name="linkToDunn">
         <a href="https://simpson.edu/internal/dunn-library-0"> https://simpson.edu/internal/dunn-library-0 </a>
     </string>
-    <string name="dunnHistory">\n  Dunn Library was completed in 1964 and named after a Simpson alum, Rex A. Dunn.
-        It provides students with a quiet workspace, a computer lab, and help on various research projects. Dunn has
-        a plethora of books but also has a collection of DVDs, CDs, ebooks, and much more for students and faculty to access.
-        You will find students studying for tests and working on homework throughout the day in Dunn Library, but it is
-        also home to three classrooms and the majority of the teacher education program materials.\n\n There is an ample
-        amount of seating in Dunn as there are comfy chairs and tables spread throughout so students can find a comfortable
-        place to work on their studies. Since its completion in 1964, Dunn has been providing resources for students and
-        faculty and will continue to do so in the future. </string>
+    <string name="dunnHistory">\n\n\t\t\tNamed after 1913 Simpson graduate Rex A. Dunn, Dunn Library replaced the Carnegie Library.
+        Rex A. Dunn donated $225,000 towards the construction that was finished in 1964. Not only does Dunn hold a plethora of books,
+        but it also holds a collection of CDs, DVDs, e-books, and much more for the use of students and faculty for their classes or their
+        piqued curiosities. Inside Dunn, you can find many places where students like to hang out or study. There exist several stand-alone
+        tables on all three floors, individual carrels on the second floor looking out onto campus, comfy lounge chairs, and individual
+        study rooms. You can also find the research consultation office, a computer lab, and the Edwards Center (also known as EMERGE) on
+        the first floor to further help aid studying students. The second floor also is home to the Antebellum South Collection as well
+        as the Lehmann Collection of Ancient Pottery. Also on the second floor is the general book collection of Dunn Library and a set
+        of three classrooms that hold many of the teacher education materials to help budding educators in their educational journey at
+        Simpson College. The third floor holds quiet study rooms but is also the home of Student Support Services, the Walt Research
+        Library, and Simpson College Archives.
+        \n\n\t\t\tDunn Library is often used by students who are looking to conduct research for their courses. Many students use Dunn to get
+        ahead on homework or to study for finals because of its relaxing environment and ample seating. Dunn also boasts several computers
+        for use by Simpson students. Furthermore, the first floor has the Academic Resource Center, which is used for tutoring students
+        and assisting them with their writing assignments.
+        \n\n\t\t\tDunn Library\'s three classrooms are home to the majority of the student education program classes. They include a teacher
+        education lab with materials for aspiring teachers to use for their classes as well as the different practicum experiences that
+        they have through their time within the teacher education program.
+        \n\n\t\t\tDunn Library is a staple of Simpson located next to College Hall, Pfeiffer/Great Hall, and Mary Berry Hall. It not only is
+        a good place for students to study but is also a place for students to get the help they need for classes and research projects.
+        Since its completion in 1964, Dunn has provided many services for Simpson students and faculty and will continue to do so in the future.
+    </string>
     <string name="dunnAuthor">By: Nick Squires</string>
     <string name="linkToHillman">
         <a href="https://simpson.edu/internal/hillman-hall"> https://simpson.edu/internal/hillman-hall </a>
     </string>
-    <string name="hillmanHistoryPart1">\n  Built in 1920, Hillman Hall was originally known as Central Building and had
-        classrooms and administrative offices. In 1961, Central Building was renamed as Hillman Hall in honor Simpson’s
-        longest serving president, John L. Hillman who was president of the college from 1919-1936. During his time,
-        Dr. Hillman was responsible for a $1,000,000 endowment fund and expanded Simpson College onto the surrounding
-        land that much of our campus is on today.\n </string>
-    <string name="hillmanHistoryPart2">\n  Nearly 100 years later, the building now holds the offices of the President,
-        Academic Dean, Human Resources, Business, Marketing and Public Relations, Registrar, College Advancement and Alumni Relations.</string>
+    <string name="hillmanHistoryPart1">\n\n\t\t\tBuilt in 1920, the building was originally known as Central Building and served the purpose
+        of having classrooms and administrative offices. In 1961, Central Building was renamed Hillman Hall in honor of Simpson’s longest
+        serving president, Dr. John L. Hillman who was president of the college from 1919-1936. During his time, Dr. Hillman was responsible
+        for a $1,000,000 endowment fund and expanded Simpson College onto the surrounding land that much of our campus is on today. This was
+        achieved by Dr. Hillman working tirelessly with the Indianola community as well as the Rockefeller Foundation in the 1920’s to raise
+        money and buy land. This was an incredible achievement for Simpson College. During Dr. Hillman’s presidency, there were several
+        other remarkable achievements including the purchase of Lorraine Hall, an apartment building transformed into a girl’s dormitory, a
+        reduction in room and board costs, and a remodeling of the Chapel.
+        \n\n\t\t\tNearly 100 years later, the building now holds administrative offices as well as the Continuing and Graduate Program. The Business
+        and Registrar’s offices are located on the first floor. The second floor houses the offices of the President, Academic Dean, Human
+        Resources, College Advancement and Alumni Relations. The third-floor houses the Office of Marketing and Public Relations. Hillman is
+        connected to McNeill Hall by a convenient commuter lounge. The Hillman Hall parking lot is often used for tailgating before home football games.
+    </string>
+    <string name="hillmanHistoryPart2">\n\n\t\t\tThe Continuing and Graduate office in Hillman Hall serves a major purpose for both traditional and
+        non-traditional students at Simpson College. The Continuing and Graduate program provides opportunities for adult students to complete
+        the same curriculum and requirements as an on-campus student. Further, the Continuing and Graduate Program provides three graduate: Master’s
+        in Criminal Justice, Master’s in Choral Conducting, and a Master’s in Teaching. For students earning a bachelor’s degree, both traditional
+        and non-traditional students can utilize the Continuing and Graduate program. They offer about 10 majors and 75 classes including online courses.
+        On the other end of Hillman Hall, there are the Business and Registrar’s offices where a student can pay their account, add/drop classes, get
+        transcripts, and get help registering for classes.
+        \n\n\t\t\tThe Office of Conferences and Events is where every room is scheduled and reserved for students and faculty across all three campuses.
+        This is also where facilities can be reserved for weddings, dinners, and special events. Hillman Hall serves as the administrative center of campus.
+    </string>
     <string name="hillmanAuthor">By: Hannah Spencer</string>
     <string name="linkToHopper">
         <a href="https://simpson.edu/internal/hopper-gymnasium"> https://simpson.edu/internal/hopper-gymnasium </a>
     </string>
-    <string name="hopperHistoryPart1">\n   Harry E. Hopper was Chairman of Simpson’s Board of Trustees and an earlier
-        Simpson College graduate in the class of 1893. As a Simpson alumni, Hopper knew that the college was in need
-        of a proper gymnasium, as the two small male and female gymnasiums were deteriorating fast. Therefore,
-        he approached William H. Berry with his proposal of building for the College out of his own pocket, the best
-        gymnasium in the Midwest. The project was completed in 1913 and cost around $100,000 to finish, with the whole
-        of that amount coming from Hopper’s personal fortune.\n
+    <string name="hopperHistoryPart1">\n\n\t\t\tHarry E. Hopper was Chairman of Simpson’s Board of Trustees and a Simpson College graduate in the class of 1893.
+        As a Simpson alumni, Hopper knew that the college was in need of a proper gymnasium, as the two small male and female gymnasiums were deteriorating
+        fast. Therefore, he approached William H. Berry with his proposal of building the new gymnasium for the College out of his own pocket, ensuring it
+        would be the best in the Midwest.
+        \n\n\t\t\tThe project was announced in 1911 and was planned to be completed 13 months after the onset of construction. The dedication of Hopper coincided
+        with the Simpson basketball game on January 3, 1913 with the University of Iowa. It was termed in The Simpsonian as one of the greatest events in
+        Simpson history, as some 1,500 people attended the ceremony and game. This project cost around $100,000 to complete and actually resulted in the
+        personal bankruptcy of Hopper. In fact, Hopper refused to officially look at the cost of the building, stating that “if anyone asks what it cost,
+        I can honestly say that I do not know.” Therefore, there is still speculation on what the building officially cost, as Carl Brown, who paid all
+        the bills, did not divulge the final figure. However, standing at three stories tall, Hopper was considered a massive structure at the time, and
+        when completed, the building was considered one of the finest in the state.
+        \n\n\t\t\tInside the building, it contained a rectangular room filled by a basketball court. Spiral staircases in the corners took one up to a suspended
+        oval running track. Downstairs were restrooms, lockers, a weight room, and an area for the future addition of a pool. Aside from a variety of
+        athletic uses, Hopper was used for many years for commencement exercises and class registration, along with many other activities. However, by
+        the 1970s, Hopper had become obsolete for many Simpson activities. The building itself is still sound and continues to be used for various athletic
+        practices and intramurals. However, with the building of Cowles Athletic Center, Hopper has become reduced to being used as a supplement to this
+        newer and more up-to-date facility.
 </string>
-    <string name="hopperHistoryPart2">\n   Hopper Gymnasium was considered a massive structure at the time, and when
+    <string name="hopperHistoryPart2">\n\n\t\t\tHopper Gymnasium was considered a massive structure at the time, and when
         completed, the building was considered one of the finest in the state. Inside the building, it contained a
         rectangular room filled by a basketball court., with various other facilities being contained in the basement.
         Aside from a variety of athletic uses, Hopper was used for many years for commencement exercises and class
@@ -198,13 +371,26 @@
     <string name="linkToKent">
         <a href="https://simpson.edu/internal/kent-campus-center"> https://simpson.edu/internal/kent-campus-center </a>
     </string>
-    <string name="kentHistoryPart1">\n   Kent Campus Center was opened in 2012, replacing the Brenton Student Center.
-        With restaurants, such as Au Bon Pain, Millie’s’ Coffee Shop, Red Mango, and Tyler’s Grille, and lounge furniture,
-        Kent Campus Center offers different opportunities for students to relax during the school year.\n </string>
-    <string name="kentHistoryPart2">\n   The Kent Campus Center is named after James H. Kent, who along with contributions
-        from his family donated $4 million towards a new student center. The Black Box Theatre and Hubbell Hall host multiple
-        speakers and receptions. In addition, Kent Campus Center is the home to a conglomerate of resources for students
-        including Student Government Association, security and health services.</string>
+    <string name="kentHistoryPart1">\n\n\t\t\tIn 2003, Simpson College set out to improve multiple buildings on its campus. The college decided a new student
+        center would benefit the campus and its students greatly. Nearly a decade later, Kent Campus Center opened in October 2012, replacing the Brenton
+        Student Center. The Brenton Student Center, named after Mr. and Mrs. W. Harold Brenton, served as the center for a variety of student activities
+        after its opening in February of 1968. The Kent Campus Center is named after James H. Kent, who along with contributions from his family donated
+        $4 million towards a new student center. After its opening, the Kent Campus Center became instantly popular.
+        \n\n\t\t\tThe first-floor features multiple resources for students. Differing from Pfeiffer Dining Hall, Kent offers different food options for students.
+        Restaurants such as Sub Station, Millie’s Coffee Shop, Red Mango, and Tyler’s Grille occupy the northern portion of the building. The Principal
+        Black Box Theatre hosts an assortment of events and receptions. Whether it is a comedian, wedding reception, or speaker, the Black Box Theatre has
+        plenty of space for any occasion. In between the restaurants and Black Box Theatre are tables and lounge chairs for students to study or relax in.
+        Conference rooms are also available for student’s use. A unique aspect of the building is its hallway connecting to the Cowles Fieldhouse. When
+        SVPA Architects began to build Kent Campus Center, they connected the new building to the existing gym. As a result, students are able to spend
+        the majority of their walk to classes indoors, a beneficial aspect during the winter. Also featured on the first floor is the security office,
+        the mailroom, and the Storm Cellar, Simpson’s bookstore.\n </string>
+    <string name="kentHistoryPart2">\n\n\t\t\t The second floor is home to a multitude of offices for student services. Kent’s second floor houses student
+        development, residence life, career development, and community engagement and services, to counseling services, health services, student
+        activities, and intramurals, orientation and first-year experience, multicultural and international affairs, and international education.
+        The second-floor of Kent thus provides numerous opportunities and services for the students. Notably, the second floor is the home for the
+        Student Government Association for Simpson College. In addition, the second-floor features Hubbell Hall, a large reception room utilized for
+        hosting a mixture of lectures, including Iowa History Center lectures. Hubbell Hall hosts the campus-wide favorite BINGO and a multitude of
+        fairs and lectures put on by Simpson College. </string>
     <string name="kentAuthor">By: Noah Nelsen</string>
     <string name="bpac">Blank Performing Arts Center</string>
     <string name="scrollTitle">Simpson Buildings</string>
@@ -220,7 +406,8 @@
     <string name="anyErrorsText">Problems with the App?</string>
     <string name="infoButtonExplanation">Information Button: Goes to the page that shows who helped create the application</string>
     <string name="helpButtonExplanation">Help Button: Goes to the help page that contains contact info and functionality of main page buttons.</string>
-    <string name="mapButtonExplanation"> Map Button: Goes to a map of Simpson College with location markers marking Simpson buildings. The map will also display the user\'s location, if allowed. Once user clicks on a marker, it will take user to building\'s history page.</string>
+    <string name="mapButtonExplanation"> Map Button: Goes to a map of Simpson College with location markers marking Simpson buildings. The map will also
+        display the user\'s location, if allowed. Once user clicks on a marker, it will take user to building\'s history page.</string>
     <string name="listButtonExplanation">List Button: Goes to a list of Simpson College buildings. From there, user can click on a button to see historical information about said building.</string>
     <string name="content_contributors">Content Contributors:</string>
     <string name="for_more_information_visit">For more information, visit</string>
